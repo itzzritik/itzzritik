@@ -19,14 +19,19 @@
     },
     "socialHandles": [
         {
+            "platform": "linkedin",
+            "handle": "ItzzRitik",
+            "url": "https://www.linkedin.com/in"
+        },
+        {
             "platform": "github",
             "handle": "ItzzRitik",
             "url": "https://github.com"
         },
         {
-            "platform": "linkedin",
+            "platform": "twitter",
             "handle": "ItzzRitik",
-            "url": "https://www.linkedin.com/in"
+            "url": "https://twitter.com"
         },
         {
             "platform": "instagram",
@@ -37,12 +42,7 @@
             "platform": "facebook",
             "handle": "ItzzRitik",
             "url": "https://www.facebook.com"
-        },
-        {
-            "platform": "twitter",
-            "handle": "ItzzRitik",
-            "url": "https://twitter.com"
-        }
+        }        
     ],
     "academics": [
         {
