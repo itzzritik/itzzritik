@@ -21,26 +21,36 @@
         {
             "platform": "linkedin",
             "handle": "ItzzRitik",
+            "icon": "f08c",
+            "color": "#0077b5",
             "url": "https://www.linkedin.com/in"
         },
         {
             "platform": "github",
             "handle": "ItzzRitik",
+            "icon": "f09b",
+            "color": "#171515",
             "url": "https://github.com"
         },
         {
             "platform": "twitter",
             "handle": "ItzzRitik",
+            "icon": "f099",
+            "color": "#1DA1F2",
             "url": "https://twitter.com"
         },
         {
             "platform": "instagram",
             "handle": "itzz_ritik",
+            "icon": "f16d",
+            "color": "#E1306C",
             "url": "https://www.instagram.com"
         },
         {
             "platform": "facebook",
             "handle": "ItzzRitik",
+            "icon": "f09a",
+            "color": "#3B5998",
             "url": "https://www.facebook.com"
         }        
     ],
