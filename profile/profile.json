@@ -58,7 +58,10 @@
         {
             "id": "tG0uEJpT_bjBZ9o226RQI",
             "school": "Vellore Institute of Technology",
-            "degree": "Bachelor of Technology (BTech)",
+            "degree": {
+                "long": "Bachelor of Technology",
+                "short": "BTech"
+            },
             "field": "Computer Science",
             "fromDate": "Fri, 01 Jan 2016 00:00:00 GMT",
             "toDate": "Wed, 01 Jan 2020 00:00:00 GMT",
@@ -69,7 +72,10 @@
         {
             "id": "nC1blw2cHBv7nGKYsTjiX",
             "school": "Dalimss Sunbeam School",
-            "degree": "Central Board of Secondary Education (CBSE)",
+            "degree": {
+                "long": "Central Board of Secondary Education",
+                "short": "CBSE"
+            },
             "fromDate": "Tue, 01 Jan 2013 00:00:00 GMT",
             "toDate": "Thu, 01 Jan 2015 00:00:00 GMT",
             "location": "Varanasi, Uttar Pradesh, India",
@@ -79,7 +85,10 @@
         {
             "id": "Khr_2FFTBLs28iTp8bbMP",
             "school": "W.H. Smith Memorial School",
-            "degree": "Indian Certificate of Secondary Education (ICSE)",
+            "degree": {
+                "long": "Indian Certificate of Secondary Education",
+                "short": "ICSE"
+            },
             "fromDate": "Sat, 01 Jan 2000 00:00:00 GMT",
             "toDate": "Tue, 01 Jan 2013 00:00:00 GMT",
             "location": "Varanasi, Uttar Pradesh, India",
