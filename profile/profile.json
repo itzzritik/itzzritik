@@ -23,7 +23,11 @@
             "platform": "linkedin",
             "handle": "ItzzRitik",
             "icon": "f0e1",
-            "color": [0, 119, 181],
+            "color": [
+                0,
+                119,
+                181
+            ],
             "url": "https://www.linkedin.com/in"
         },
         {
@@ -31,7 +35,11 @@
             "platform": "github",
             "handle": "ItzzRitik",
             "icon": "f09b",
-            "color": [23, 21, 21],
+            "color": [
+                23,
+                21,
+                21
+            ],
             "url": "https://github.com"
         },
         {
@@ -39,7 +47,11 @@
             "platform": "twitter",
             "handle": "ItzzRitik",
             "icon": "e61b",
-            "color": [29, 161, 242],
+            "color": [
+                29,
+                161,
+                242
+            ],
             "url": "https://twitter.com"
         },
         {
@@ -47,7 +59,11 @@
             "platform": "instagram",
             "handle": "itzz_ritik",
             "icon": "f16d",
-            "color": [225, 48, 108],
+            "color": [
+                225,
+                48,
+                108
+            ],
             "url": "https://www.instagram.com"
         },
         {
@@ -55,9 +71,13 @@
             "platform": "facebook",
             "handle": "ItzzRitik",
             "icon": "f39e",
-            "color": [59, 89, 152],
+            "color": [
+                59,
+                89,
+                152
+            ],
             "url": "https://www.facebook.com"
-        }        
+        }
     ],
     "academics": [
         {
@@ -115,7 +135,7 @@
             "location": "Bengaluru, Karnataka, India",
             "url": "https://globalsolutioncenter.societegenerale.in/en/what/about/",
             "picture": "ZQz5iEBDdx8KFtpSKPYwqg.jpg",
-            "description": ""
+            "description": "• Successfully launched Societe Generale's inaugural branch in India, SG Mumbai overseeing seamless migrations and optimizations for multiple services ensuring a flawless execution with zero production bugs.\n• Actively designed and implemented features across loan processing services using LoanIQ and LoanSAT. achieving higher levels of operational excellence.\n• Techstack: Java 11, Spring Boot, Swagger, Angular, SQL, Docker, Autosys"
         },
         {
             "id": "IYZ6dHQNUvP79cAkBeevg",
