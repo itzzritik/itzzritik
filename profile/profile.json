@@ -146,7 +146,8 @@
             "toDate": "Sun, 31 May 2020 18:30:00 GMT",
             "location": "Bengaluru, Karnataka, India",
             "url": "https://www.postman.com/company/about-postman/",
-            "picture": "Z8T8eyuMwqy7JWf6Ht5-2g.jpg"
+            "picture": "Z8T8eyuMwqy7JWf6Ht5-2g.jpg",
+            "description": "• Enhanced and optimized the App Release Service, responsible for delivering Postman application packages and updates to 15 Million+ users.\n• Played a key role in integrating color schemes and new design systems in app.\n• Techstack: React, Angular, Node, Express, Electron, SQL, Mongo, Redis"
         }
     ],
     "updatedAt": "Wed, 23 Feb 2022 20:09:49 GMT"
