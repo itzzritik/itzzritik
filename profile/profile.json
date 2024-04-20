@@ -98,6 +98,7 @@
         {
             "id": "nC1blw2cHBv7nGKYsTjiX",
             "school": "Dalimss Sunbeam School",
+            "specialization": "Intermediate",
             "degree": {
                 "long": "Central Board of Secondary Education",
                 "short": "CBSE"
@@ -105,8 +106,8 @@
             "fromDate": "Tue, 01 Jan 2013 00:00:00 GMT",
             "toDate": "Thu, 01 Jan 2015 00:00:00 GMT",
             "location": "Varanasi, Uttar Pradesh, India",
-            "score": "76.8%",
             "url": "https://www.linkedin.com/school/dalimss-sunbeam-school-varanasi/",
+            "score": "76.8%",
             "picture": "ZolPVmIVK5s9ubPN0uMCW5.jpg"
         },
         {
