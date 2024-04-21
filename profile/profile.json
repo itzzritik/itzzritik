@@ -152,5 +152,11 @@
             "description": "• Enhanced and optimized the App Release Service, responsible for delivering Postman application packages and updates to 15 Million+ users.\n• Played a key role in integrating color schemes and new design systems in app.\n• Techstack: React, Angular, Node, Express, Electron, SQL, Mongo, Redis"
         }
     ],
+    "language": [],
+    "award": [],
+    "recommendation": {
+        "received": [],
+        "given": [],
+    },
     "updatedAt": "Wed, 23 Feb 2022 20:09:49 GMT"
 }
