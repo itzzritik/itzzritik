@@ -87,26 +87,11 @@
             "toDate": "Wed, 01 Jan 2020 00:00:00 GMT",
             "location": "Chennai, Tamil Nadu, India",
             "score": "7.93 CGPA",
-            "url": "https://www.linkedin.com/school/vellore-institute-of-technology/",
-            "picture": "ZfNHXfu1tDNpwN1_qJYJSS.jpg",
-            "linkedin": "https://www.linkedin.com/company/400138/"
+            "website": "https://www.linkedin.com/school/vellore-institute-of-technology/",
+            "linkedin": "https://www.linkedin.com/company/400138/",
+            "picture": "ZfNHXfu1tDNpwN1_qJYJSS.jpg"
         },
-        {
-            "id": "nC1blw2cHBv7nGKYsTjiX",
-            "school": "Dalimss Sunbeam School",
-            "specialization": "Intermediate",
-            "degree": {
-                "long": "Central Board of Secondary Education",
-                "short": "CBSE"
-            },
-            "fromDate": "Tue, 01 Jan 2013 00:00:00 GMT",
-            "toDate": "Thu, 01 Jan 2015 00:00:00 GMT",
-            "location": "Varanasi, Uttar Pradesh, India",
-            "url": "https://www.linkedin.com/school/dalimss-sunbeam-school-varanasi/",
-            "score": "76.8%",
-            "picture": "ZolPVmIVK5s9ubPN0uMCW5.jpg"
-        },
-        {
+        { 
             "id": "QR4P1EppdUL0ZDc-FZrFM",
             "school": "Dalimss Sunbeam School - India",
             "degree": {
@@ -116,23 +101,11 @@
             "specialization": "Intermediate",
             "fromDate": "Tue, 01 Jan 2013 00:00:00 GMT",
             "toDate": "Thu, 01 Jan 2015 00:00:00 GMT",
-            "linkedin": "https://www.linkedin.com/company/7861703/",
-            "score": "76.8%"
-        },
-        {
-            "id": "Khr_2FFTBLs28iTp8bbMP",
-            "school": "W.H. Smith Memorial School",
-            "specialization": "High School",
-            "degree": {
-                "long": "Indian Certificate of Secondary Education",
-                "short": "ICSE"
-            },
-            "fromDate": "Sat, 01 Jan 2000 00:00:00 GMT",
-            "toDate": "Tue, 01 Jan 2013 00:00:00 GMT",
             "location": "Varanasi, Uttar Pradesh, India",
-            "url": "https://whsmithschool.com",
-            "score": "61.33%",
-            "picture": "Z2FO87vuhcjg2emWYZNQI9.jpg"
+            "website": "https://www.linkedin.com/school/dalimss-sunbeam-school-varanasi/",
+            "linkedin": "https://www.linkedin.com/company/7861703/",
+            "score": "76.8%",
+            "picture": "ZolPVmIVK5s9ubPN0uMCW5.jpg"
         },
         {
             "id": "26fPOHUh-NIR_T3uZ0faR",
@@ -144,8 +117,11 @@
             "specialization": "High School",
             "fromDate": "Sat, 01 Jan 2000 00:00:00 GMT",
             "toDate": "Tue, 01 Jan 2013 00:00:00 GMT",
+            "location": "Varanasi, Uttar Pradesh, India",
+            "website": "https://whsmithschool.com",
             "linkedin": "https://www.linkedin.com/company/7904195/",
-            "score": "61.33%"
+            "score": "61.33%",
+            "picture": "Z2FO87vuhcjg2emWYZNQI9.jpg"
         }
     ],
     "experience": [
@@ -181,10 +157,10 @@
             "fromDate": "Mon, 30 Nov 2020 18:30:00 GMT",
             "toDate": "Thu, 30 Jun 2022 18:30:00 GMT",
             "location": "Bengaluru, Karnataka, India",
-            "url": "https://globalsolutioncenter.societegenerale.in/en/what/about/",
             "picture": "ZQz5iEBDdx8KFtpSKPYwqg.jpg",
             "description": "• Successfully launched Societe Generale's inaugural branch in India, SG Mumbai overseeing seamless migrations and optimizations for multiple services ensuring a flawless execution with zero production bugs.\n• Actively designed and implemented features across loan processing services using LoanIQ and LoanSAT. achieving higher levels of operational excellence.\n• Techstack: Java 11, Spring Boot, Swagger, Angular, SQL, Docker, Autosys",
             "locationType": "Hybrid",
+            "website": "https://globalsolutioncenter.societegenerale.in/en/what/about/",
             "linkedin": "https://www.linkedin.com/company/9371944/"
         },
         {
@@ -195,10 +171,10 @@
             "fromDate": "Sat, 30 Nov 2019 18:30:00 GMT",
             "toDate": "Sun, 31 May 2020 18:30:00 GMT",
             "location": "Bengaluru, Karnataka, India",
-            "url": "https://www.postman.com/company/about-postman/",
             "description": "• Enhanced and optimized the App Release Service, responsible for delivering Postman application packages and updates to 15 Million+ users.\n• Played a key role in integrating color schemes and new design systems in app.\n• Techstack: React, Angular, Node, Express, Electron, SQL, Mongo, Redis",
             "picture": "Z8T8eyuMwqy7JWf6Ht5-2g.jpg",
             "locationType": "On-site",
+            "website": "https://www.postman.com/company/about-postman/",
             "linkedin": "https://www.linkedin.com/company/3795851/"
         },
         {
