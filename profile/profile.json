@@ -138,13 +138,13 @@
             "id": "IYZ6dHQNUvP79cAkBeevg",
             "companyName": "Postman",
             "roleName": "Software Engineer",
-            "roleType": "Internship",
+            "roleType": "Intern",
             "fromDate": "Sat, 30 Nov 2019 18:30:00 GMT",
             "toDate": "Sun, 31 May 2020 18:30:00 GMT",
             "location": "Bengaluru, Karnataka, India",
             "url": "https://www.postman.com/company/about-postman/",
-            "picture": "Z8T8eyuMwqy7JWf6Ht5-2g.jpg",
-            "description": "• Enhanced and optimized the App Release Service, responsible for delivering Postman application packages and updates to 15 Million+ users.\n• Played a key role in integrating color schemes and new design systems in app.\n• Techstack: React, Angular, Node, Express, Electron, SQL, Mongo, Redis"
+            "description": "• Enhanced and optimized the App Release Service, responsible for delivering Postman application packages and updates to 15 Million+ users.\n• Played a key role in integrating color schemes and new design systems in app.\n• Techstack: React, Angular, Node, Express, Electron, SQL, Mongo, Redis",
+            "picture": "Z8T8eyuMwqy7JWf6Ht5-2g.jpg"
         }
     ],
     "language": [],
