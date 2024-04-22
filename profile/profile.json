@@ -91,7 +91,7 @@
             "linkedin": "https://www.linkedin.com/company/400138/",
             "picture": "ZfNHXfu1tDNpwN1_qJYJSS.jpg"
         },
-        { 
+        {
             "id": "QR4P1EppdUL0ZDc-FZrFM",
             "school": "Dalimss Sunbeam School - India",
             "degree": {
@@ -191,15 +191,16 @@
         },
         {
             "id": "-_dzfOlbkqGdxsxovgXCY",
-            "companyName": "ERPNext (Frappe Technologies Pvt. Ltd.)",
-            "roleName": "Full Stack Engineer",
+            "companyName": "Frappe",
+            "roleName": "Full Stack Developer",
             "roleType": "Internship",
             "fromDate": "Mon, 30 Apr 2018 18:30:00 GMT",
             "toDate": "Sat, 30 Jun 2018 18:30:00 GMT",
             "location": "Mumbai, Maharashtra, India",
-            "locationType": "Remote",
+            "website": "https://frappe.io/frappejs",
+            "linkedin": "https://www.linkedin.com/company/14618702",
             "description": "A cross-platform application built by our intern team.Technology used: \n• Ionic Framework \n• NodeJS, Yarn \n• HTML, SCSS, TypeScriptERPNext is a fully featured ERP with Financialaccounting, Inventory, Invoicing, Payments and Reports.",
-            "linkedin": "https://www.linkedin.com/company/315202/"
+            "picture": ""
         }
     ],
     "language": [
@@ -319,5 +320,5 @@
             }
         ]
     },
-    "updatedAt": "Wed, 23 Feb 2022 20:09:49 GMT"
+    "updatedAt": "Mon, 22 Apr 2024 14:58:39 GMT"
 }
