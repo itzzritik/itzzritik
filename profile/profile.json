@@ -94,11 +94,11 @@
         {
             "id": "QR4P1EppdUL0ZDc-FZrFM",
             "school": "Dalimss Sunbeam School - India",
+            "specialization": "Intermediates",
             "degree": {
                 "long": "Central Board of Secondary Education",
                 "short": "CBSE"
             },
-            "specialization": "Intermediate",
             "fromDate": "Tue, 01 Jan 2013 00:00:00 GMT",
             "toDate": "Thu, 01 Jan 2015 00:00:00 GMT",
             "location": "Varanasi, Uttar Pradesh, India",
@@ -321,5 +321,5 @@
             }
         ]
     },
-    "updatedAt": "Tue, 23 Apr 2024 10:57:01 GMT"
+    "updatedAt": "Tue, 23 Apr 2024 10:59:20 GMT"
 }
