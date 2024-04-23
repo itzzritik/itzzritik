@@ -94,7 +94,7 @@
         {
             "id": "QR4P1EppdUL0ZDc-FZrFM",
             "school": "Dalimss Sunbeam School - India",
-            "specialization": "Intermediates",
+            "specialization": "Intermediate",
             "degree": {
                 "long": "Central Board of Secondary Education",
                 "short": "CBSE"
@@ -321,5 +321,5 @@
             }
         ]
     },
-    "updatedAt": "Tue, 23 Apr 2024 10:59:20 GMT"
+    "updatedAt": "Tue, 23 Apr 2024 10:59:26 GMT"
 }
