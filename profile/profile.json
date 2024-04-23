@@ -155,14 +155,13 @@
             "companyName": "Societe Generale Global Solution Centre",
             "roleName": "Full Stack Developer",
             "roleType": "Full-time",
-            "fromDate": "Mon, 30 Nov 2020 18:30:00 GMT",
-            "toDate": "Thu, 30 Jun 2022 18:30:00 GMT",
+            "fromDate": "Wed, 02 Dec 2020 18:30:00 GMT",
+            "toDate": "Sun, 03 Jul 2022 18:30:00 GMT",
             "location": "Bengaluru, Karnataka, India",
-            "picture": "ZQz5iEBDdx8KFtpSKPYwqg.jpg",
-            "description": "• Successfully launched Societe Generale's inaugural branch in India, SG Mumbai overseeing seamless migrations and optimizations for multiple services ensuring a flawless execution with zero production bugs.\n• Actively designed and implemented features across loan processing services using LoanIQ and LoanSAT. achieving higher levels of operational excellence.\n• Techstack: Java 11, Spring Boot, Swagger, Angular, SQL, Docker, Autosys",
-            "locationType": "Hybrid",
             "website": "https://globalsolutioncenter.societegenerale.in/en/what/about/",
-            "linkedin": "https://www.linkedin.com/company/9371944/"
+            "linkedin": "https://www.linkedin.com/company/9371944/",
+            "description": "• Successfully launched Societe Generale's inaugural branch in India, SG Mumbai overseeing seamless migrations and optimizations for multiple services ensuring a flawless execution with zero production bugs.\n• Actively designed and implemented features across loan processing services using LoanIQ and LoanSAT. achieving higher levels of operational excellence.\n• Techstack: Java 11, Spring Boot, Swagger, Angular, SQL, Docker, Autosys",
+            "picture": "ZQz5iEBDdx8KFtpSKPYwqg.jpg"
         },
         {
             "id": "IYZ6dHQNUvP79cAkBeevg",
@@ -322,5 +321,5 @@
             }
         ]
     },
-    "updatedAt": "Tue, 23 Apr 2024 09:29:10 GMT"
+    "updatedAt": "Tue, 23 Apr 2024 09:38:55 GMT"
 }
