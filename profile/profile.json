@@ -133,7 +133,7 @@
             "fromDate": "Wed, 31 Jan 2024 18:30:00 GMT",
             "toDate": "present",
             "location": "Bengaluru, Karnataka, India",
-            "website": "",
+            "website": "https://adeptmind.ai",
             "linkedin": "https://www.linkedin.com/company/17991379/",
             "description": "Building an artificial intelligence technology that revolutionizes customer search for e-commerce retail.",
             "picture": "exp-adeptm-zxte6gymrusbtlomy1b1a.jpeg"
@@ -321,5 +321,5 @@
             }
         ]
     },
-    "updatedAt": "Tue, 23 Apr 2024 10:07:53 GMT"
+    "updatedAt": "Tue, 23 Apr 2024 10:13:37 GMT"
 }
