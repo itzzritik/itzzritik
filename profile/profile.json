@@ -127,7 +127,7 @@
     "experience": [
         {
             "id": "m12DJrqdkvyt4twcR0UFn",
-            "companyName": "Adeptminds",
+            "companyName": "Adeptmind",
             "roleName": "Full Stack Developer",
             "roleType": "Full-time",
             "fromDate": "Wed, 21 Feb 2024 18:30:00 GMT",
@@ -321,5 +321,5 @@
             }
         ]
     },
-    "updatedAt": "Tue, 23 Apr 2024 10:59:42 GMT"
+    "updatedAt": "Tue, 23 Apr 2024 10:59:48 GMT"
 }
