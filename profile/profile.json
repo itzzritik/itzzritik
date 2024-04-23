@@ -183,12 +183,13 @@
             "companyName": "Sanrakshak",
             "roleName": "Co-Founder & CTO",
             "roleType": "Self-employed",
-            "fromDate": "Tue, 31 Jul 2018 18:30:00 GMT",
-            "toDate": "Sat, 29 Feb 2020 18:30:00 GMT",
+            "fromDate": "Thu, 09 Aug 2018 18:30:00 GMT",
+            "toDate": "Mon, 30 Mar 2020 18:30:00 GMT",
             "location": "Chennai, Tamil Nadu, India",
-            "locationType": "On-site",
+            "website": "https://github.com/itzzritik/Sanrakshak-Application",
+            "linkedin": "https://www.linkedin.com/company/14577069/",
             "description": "We at Sanrakshak have pledged to provide the utmost safe and secure railway journey to our fellow passengers by attaching our robust and affordable sensors beneath the engine of the train.This provides real-time data about the occurrence of cracks or any kind of faults on the railway line and ultimately offers a holistic end to end solution to the government.\n• National Rank 1 at \"Sabre Hack 2019\", Bengaluru.\n• Represented India in the final pitch at \"German-Indian Startup Connect 2K18\", Munich Germany.\n• National Winners of \"TATA Grand Indian IoT Challange 2018\", Pune.\n• Winner of Bootcamp at Indian Institute of Technology, Madras.",
-            "linkedin": "https://www.linkedin.com/company/14577069/"
+            "picture": "exp-sanrak-kt3nntka4byh0wnsk60h6.jpeg"
         },
         {
             "id": "-_dzfOlbkqGdxsxovgXCY",
@@ -321,5 +322,5 @@
             }
         ]
     },
-    "updatedAt": "Mon, 22 Apr 2024 17:16:58 GMT"
+    "updatedAt": "Tue, 23 Apr 2024 09:29:10 GMT"
 }
