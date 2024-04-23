@@ -133,9 +133,10 @@
             "fromDate": "Wed, 31 Jan 2024 18:30:00 GMT",
             "toDate": "present",
             "location": "Bengaluru, Karnataka, India",
-            "locationType": "Remote",
+            "website": "",
+            "linkedin": "https://www.linkedin.com/company/17991379/",
             "description": "Building an artificial intelligence technology that revolutionizes customer search for e-commerce retail.",
-            "linkedin": "https://www.linkedin.com/company/17991379/"
+            "picture": "exp-adeptm-zxte6gymrusbtlomy1b1a.jpeg"
         },
         {
             "id": "w0JH076Zhrz9zkdLzWjoi",
@@ -320,5 +321,5 @@
             }
         ]
     },
-    "updatedAt": "Tue, 23 Apr 2024 09:39:53 GMT"
+    "updatedAt": "Tue, 23 Apr 2024 10:07:53 GMT"
 }
