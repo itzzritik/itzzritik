@@ -194,8 +194,8 @@
             "companyName": "Frappe",
             "roleName": "Full Stack Developer",
             "roleType": "Internship",
-            "fromDate": "Mon, 30 Apr 2018 18:30:00 GMT",
-            "toDate": "Sat, 30 Jun 2018 18:30:00 GMT",
+            "fromDate": "Sun, 06 Dec 2020 18:30:00 GMT",
+            "toDate": "Fri, 06 Jul 2018 18:30:00 GMT",
             "location": "Mumbai, Maharashtra, India",
             "website": "https://frappe.io/frappejs",
             "linkedin": "https://www.linkedin.com/company/14618702",
@@ -320,5 +320,5 @@
             }
         ]
     },
-    "updatedAt": "Tue, 23 Apr 2024 09:39:06 GMT"
+    "updatedAt": "Tue, 23 Apr 2024 09:39:53 GMT"
 }
