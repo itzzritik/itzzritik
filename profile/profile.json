@@ -169,7 +169,7 @@
             "companyName": "Postman",
             "roleName": "Full Stack Developer",
             "roleType": "Internship",
-            "fromDate": "Tue, 15 Dec 2020 18:30:00 GMT",
+            "fromDate": "Sun, 15 Dec 2019 18:30:00 GMT",
             "toDate": "Mon, 15 Jun 2020 18:30:00 GMT",
             "location": "Bengaluru, Karnataka, India",
             "website": "https://www.postman.com/company/about-postman/",
@@ -321,5 +321,5 @@
             }
         ]
     },
-    "updatedAt": "Tue, 23 Apr 2024 10:59:48 GMT"
+    "updatedAt": "Sun, 05 May 2024 15:53:39 GMT"
 }
