@@ -17,7 +17,7 @@ jobs:
     
     steps:
       - name: Checkout to 'main' Branch ✔️
-        uses: actions/checkout@v3.5.3
+        uses: actions/checkout@v4.2.0
 
       - name: Generate SnakeGame.svg File 🐍
         uses: Platane/snk/svg-only@v3
@@ -41,8 +41,8 @@ jobs:
           git config --global gpg.format ssh
           git config --global user.signingkey ~/.ssh/id_rsa
           git config --global commit.gpgsign true
-          git config --global user.email "jarvis@ritik.me"
-          git config --global user.name "Jarvis"
+          git config --global user.email "ritik.jarvis@gmail.com"
+          git config --global user.name "itzzjarvis"
 
       - name: Sign Commit and Push Changes 🎉
         run: |
