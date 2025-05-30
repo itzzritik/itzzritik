@@ -10,7 +10,8 @@
             "sketching",
             "traveling",
             "photography"
-        ]
+        ],
+        "enableLinkedinScraper": true
     },
     "socialHandles": [
         {
@@ -321,5 +322,5 @@
             }
         ]
     },
-    "updatedAt": "Sun, 05 May 2024 15:53:39 GMT"
+    "updatedAt": "Fri, 30 May 2025 04:20:48 GMT"
 }
