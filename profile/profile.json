@@ -1,303 +1,317 @@
 {
-	"personal": {
-		"name": "Ritik Srivastava",
-		"displayEmail": "hi@ritik.me",
-		"title": "Creative | Technologist | Developer",
-		"currentRole": "Full Stack Developer",
-		"dob": "Tue, 10 Jun 1997 05:20:00 GMT",
-		"hobbies": ["playing music", "sketching", "traveling", "photography"],
-		"about": "Not just writing code — crafting resilient systems that breathe, scale, and adapt with users at the core, delivering performance driven solutions with real world impact.",
-		"location": {
-			"country": "India",
-			"city": "Bengaluru, Karnataka",
-			"full": "Bengaluru, Karnataka, India",
-			"country_code": "IN"
-		},
-		"linkedinConnections": 4841
-	},
-	"socialHandles": [
-		{
-			"platform": "linkedin",
-			"handle": "ItzzRitik",
-			"icon": "f0e1",
-			"color": "#0077B5",
-			"url": "https://www.linkedin.com/in"
-		},
-		{
-			"platform": "github",
-			"handle": "ItzzRitik",
-			"icon": "f09b",
-			"color": "#171515",
-			"url": "https://github.com"
-		},
-		{
-			"platform": "twitter",
-			"handle": "ItzzRitik",
-			"icon": "e61b",
-			"color": "#1DA1F2",
-			"url": "https://twitter.com"
-		},
-		{
-			"platform": "instagram",
-			"handle": "itzz_ritik",
-			"icon": "f16d",
-			"color": "#E1306C",
-			"url": "https://www.instagram.com"
-		},
-		{
-			"platform": "facebook",
-			"handle": "ItzzRitik",
-			"icon": "f39e",
-			"color": "#3B5998",
-			"url": "https://www.facebook.com"
-		}
-	],
-	"academics": [
-		{
-			"id": "tG0uEJpT_bjBZ9o226RQI",
-			"school": "Vellore Institute of Technology",
-			"degree": {
-				"long": "Bachelor of Technology",
-				"short": "BTech"
-			},
-			"specialization": "Computer Science",
-			"fromDate": "Fri, 01 Jan 2016 00:00:00 GMT",
-			"toDate": "Wed, 01 Jan 2020 00:00:00 GMT",
-			"location": "Chennai, Tamil Nadu, India",
-			"score": "7.93 CGPA",
-			"website": "https://www.linkedin.com/school/vellore-institute-of-technology/",
-			"linkedin": "https://www.linkedin.com/company/400138/",
-			"picture": "ZfNHXfu1tDNpwN1_qJYJSS.jpg"
-		},
-		{
-			"id": "QR4P1EppdUL0ZDc-FZrFM",
-			"school": "Dalimss Sunbeam School - India",
-			"specialization": "Intermediate",
-			"degree": {
-				"long": "Central Board of Secondary Education",
-				"short": "CBSE"
-			},
-			"fromDate": "Tue, 01 Jan 2013 00:00:00 GMT",
-			"toDate": "Thu, 01 Jan 2015 00:00:00 GMT",
-			"location": "Varanasi, Uttar Pradesh, India",
-			"website": "https://www.linkedin.com/school/dalimss-sunbeam-school-varanasi/",
-			"linkedin": "https://www.linkedin.com/company/7861703/",
-			"score": "76.8%",
-			"picture": "ZolPVmIVK5s9ubPN0uMCW5.jpg"
-		},
-		{
-			"id": "26fPOHUh-NIR_T3uZ0faR",
-			"school": "W.H. Smith Memorial School - India",
-			"degree": {
-				"long": "Indian Certificate of Secondary Education",
-				"short": "ICSE"
-			},
-			"specialization": "High School",
-			"fromDate": "Sat, 01 Jan 2000 00:00:00 GMT",
-			"toDate": "Tue, 01 Jan 2013 00:00:00 GMT",
-			"location": "Varanasi, Uttar Pradesh, India",
-			"website": "https://whsmithschool.com",
-			"linkedin": "https://www.linkedin.com/company/7904195/",
-			"score": "61.33%",
-			"picture": "Z2FO87vuhcjg2emWYZNQI9.jpg"
-		}
-	],
-	"experience": [
-		{
-			"id": "m12DJrqdkvyt4twcR0UFn",
-			"companyName": "Adeptmind",
-			"roleName": "Full Stack Developer",
-			"roleType": "Full-time",
-			"fromDate": "Wed, 21 Feb 2024 18:30:00 GMT",
-			"toDate": "present",
-			"location": "Bengaluru, Karnataka, India",
-			"website": "https://adeptmind.ai",
-			"linkedin": "https://www.linkedin.com/company/17991379",
-			"description": "Building an artificial intelligence technology that revolutionizes customer search for e-commerce retail.",
-			"picture": "exp-adeptm-zxte6gymrusbtlomy1b1a.jpeg"
-		},
-		{
-			"id": "w0JH076Zhrz9zkdLzWjoi",
-			"companyName": "Plivo",
-			"roleName": "Frontend Developer",
-			"roleType": "Full-time",
-			"fromDate": "Wed, 13 Jul 2022 18:30:00 GMT",
-			"toDate": "Wed, 31 Jan 2024 18:30:00 GMT",
-			"location": "Bengaluru, Karnataka, India",
-			"website": "https://www.plivo.com",
-			"linkedin": "https://www.linkedin.com/company/2386103",
-			"description": "• Crafted vital features for Contacto, a web and Electron based cross-platform omnichannel solution. Resulted in significant user expansion and garnered positive feedback, highlighting Plivo's innovation.\n• Spearheaded development of a robust Role-Based Access Control (RBAC) system, providing granular control over user permissions and data access.\n• Proactively achieved seamless browser compatibility for major browsers, yielding a remarkable 25% decrease in user-reported UI issues.\n• Techstack: React, Vue, Sass, Electron, Redis, PubNub, Jenkins",
-			"picture": "exp-plivo-4zlzjtn4owrce3j7xjo5s.jpeg"
-		},
-		{
-			"id": "6XK_FGDPsku3-H2F-pFCU",
-			"companyName": "Societe Generale Global Solution Centre",
-			"roleName": "Full Stack Developer",
-			"roleType": "Full-time",
-			"fromDate": "Wed, 02 Dec 2020 18:30:00 GMT",
-			"toDate": "Sun, 03 Jul 2022 18:30:00 GMT",
-			"location": "Bengaluru, Karnataka, India",
-			"website": "https://globalsolutioncenter.societegenerale.in/en/what/about/",
-			"linkedin": "https://www.linkedin.com/company/9371944/",
-			"description": "• Successfully launched Societe Generale's inaugural branch in India, SG Mumbai overseeing seamless migrations and optimizations for multiple services ensuring a flawless execution with zero production bugs.\n• Actively designed and implemented features across loan processing services using LoanIQ and LoanSAT. achieving higher levels of operational excellence.\n• Techstack: Java 11, Spring Boot, Swagger, Angular, SQL, Docker, Autosys",
-			"picture": "ZQz5iEBDdx8KFtpSKPYwqg.jpg"
-		},
-		{
-			"id": "IYZ6dHQNUvP79cAkBeevg",
-			"companyName": "Postman",
-			"roleName": "Full Stack Developer",
-			"roleType": "Internship",
-			"fromDate": "Sun, 15 Dec 2019 18:30:00 GMT",
-			"toDate": "Mon, 15 Jun 2020 18:30:00 GMT",
-			"location": "Bengaluru, Karnataka, India",
-			"website": "https://www.postman.com/company/about-postman/",
-			"linkedin": "https://www.linkedin.com/company/3795851/",
-			"description": "• Enhanced and optimized the App Release Service, responsible for delivering Postman application packages and updates to 15 Million+ users.\n• Played a key role in integrating color schemes and new design systems in app.\n• Techstack: React, Angular, Node, Express, Electron, SQL, Mongo, Redis",
-			"picture": "Z8T8eyuMwqy7JWf6Ht5-2g.jpg"
-		},
-		{
-			"id": "zyCm2sz6Tal-rPoPHffVH",
-			"companyName": "Sanrakshak",
-			"roleName": "Co-Founder & CTO",
-			"roleType": "Self-employed",
-			"fromDate": "Thu, 09 Aug 2018 18:30:00 GMT",
-			"toDate": "Mon, 30 Mar 2020 18:30:00 GMT",
-			"location": "Chennai, Tamil Nadu, India",
-			"website": "https://github.com/itzzritik/Sanrakshak-Application",
-			"linkedin": "https://www.linkedin.com/company/14577069/",
-			"description": "We at Sanrakshak have pledged to provide the utmost safe and secure railway journey to our fellow passengers by attaching our robust and affordable sensors beneath the engine of the train.This provides real-time data about the occurrence of cracks or any kind of faults on the railway line and ultimately offers a holistic end to end solution to the government.\n• National Rank 1 at \"Sabre Hack 2019\", Bengaluru.\n• Represented India in the final pitch at \"German-Indian Startup Connect 2K18\", Munich Germany.\n• National Winners of \"TATA Grand Indian IoT Challange 2018\", Pune.\n• Winner of Bootcamp at Indian Institute of Technology, Madras.",
-			"picture": "exp-sanrak-kt3nntka4byh0wnsk60h6.jpeg"
-		},
-		{
-			"id": "-_dzfOlbkqGdxsxovgXCY",
-			"companyName": "Frappe",
-			"roleName": "Full Stack Developer",
-			"roleType": "Internship",
-			"fromDate": "Sun, 06 Dec 2020 18:30:00 GMT",
-			"toDate": "Fri, 06 Jul 2018 18:30:00 GMT",
-			"location": "Mumbai, Maharashtra, India",
-			"website": "https://frappe.io/frappejs",
-			"linkedin": "https://www.linkedin.com/company/14618702",
-			"description": "A cross-platform application built by our intern team.Technology used: \n• Ionic Framework \n• NodeJS, Yarn \n• HTML, SCSS, TypeScriptERPNext is a fully featured ERP with Financialaccounting, Inventory, Invoicing, Payments and Reports.",
-			"picture": "exp-frappe-6cgvof_-hgyigj9e1llxt.jpeg"
-		}
-	],
-	"language": [
-		{
-			"id": "6eRuevuFGbN0Z9P2_-DSV",
-			"language": "English",
-			"proficiency": "Full professional proficiency"
-		},
-		{
-			"id": "4DtMxi2LUUrW9torh1Oxk",
-			"language": "French",
-			"proficiency": "Elementary proficiency"
-		},
-		{
-			"id": "jt66T1_FnfE-AWpDjSHn3",
-			"language": "Hindi",
-			"proficiency": "Native or bilingual proficiency"
-		}
-	],
-	"award": [
-		{
-			"id": "bgzYhbgWmXyl3TFQsno0Q",
-			"title": "National Rank 1 in SabreHack 2019",
-			"issuer": "Sabre India",
-			"date": "Sat, 30 Nov 2019 18:30:00 GMT",
-			"description": "Started among one of the 1434 teams that participated and made to the very top to achieve National Rank 1 in SabreHack 2019. Won a cash prize worth ₹2,00,000."
-		},
-		{
-			"id": "y1FR-jwbbnc34VduE0CzF",
-			"title": "Rank 1 in Bootcamp, E-Summit",
-			"issuer": "IIT Madras",
-			"date": "Thu, 28 Feb 2019 18:30:00 GMT",
-			"description": "• This venture in E-Summit is studded with the best and most innovative ideas, a small 3-day educational journey with the thrill of a pitching competition at the beginning and the end. \n• The mentors and participants are chosen to complement each other in the best way possible to make the event a spectacular learning experience.\n• Fetched National Level Rank 1 and Cash Prize worth 50 Thousand."
-		},
-		{
-			"id": "JtV6mtpLqi_FyXWZqKTmk",
-			"title": "National Rank 3 at TATA Grand IoT Challenge",
-			"issuer": "The TATA Communications",
-			"date": "Fri, 30 Nov 2018 18:30:00 GMT",
-			"description": "• Built an IoT solution for digital transformation needs that will enable stakeholders in society (Government bodies, Corporate world etc)\n• Fetched National Level Rank 3 and Cash Prize worth 1.5 Lakhs."
-		},
-		{
-			"id": "2H5WaHCZDF8a7axffl83y",
-			"title": "Represented India in German-Indian Startup Exchange Program",
-			"issuer": "German Indian Startup Exchange Program",
-			"date": "Wed, 31 Oct 2018 18:30:00 GMT",
-			"description": "• Represented India in Germany for the Final Pitch among Top 10 Finalists at German-Indian Startup Connect 2K18, in Munich, Germany.\n• Organised By German Indian Startup Exchange Program."
-		},
-		{
-			"id": "tENKCVetM6ufL9Lzf95df",
-			"title": "National Top 7 in Master Plan 2K18",
-			"issuer": "IIM Ahmedabad",
-			"date": "Sun, 30 Sep 2018 18:30:00 GMT",
-			"description": "• Masterplan is the annual business plan competition hosted by IIM Ahmedabad. Masterplan seeks to identify budding entrepreneurs to contribute to India’s buzzing economy.\n• It is organized by Entre Cell, in collaboration with The Centre for Innovation Incubation and Entrepreneurship (CIIE) and Red Brick Summit.\n• Achieved Top 7 Rank after clearing multiple elimination rounds in National Business Plan Competition by IIM Ahmedabad."
-		},
-		{
-			"id": "ouJgP4gLC2PTioZlxUuEM",
-			"title": "Top 5 in Facebook Developer Hackathon",
-			"issuer": "Facebook for Developers",
-			"date": "Sun, 30 Sep 2018 18:30:00 GMT",
-			"description": "Developed a mobile application and named it as Medisyst.\n• Machine Learning based solution for the prediction of diseases on the basis of Symptoms, Gender and Age.\n• It Provides all possible diseases with their percentage of accuracy.\n• Secured Top 5 position among all other competitors."
-		},
-		{
-			"id": "e7pVg3v8RCcmhCQBApGgF",
-			"title": "Rank 1 in Ideathon hosted by OWASP",
-			"issuer": "Open Web Application Security Project (OWASP)",
-			"date": "Fri, 31 Aug 2018 18:30:00 GMT",
-			"description": "Developed a mobile application and named it as Shashakti - Empowering Nation.\n• A Mechanism to deliver government schemes to all the citizen.\n• Uses machine learning algorithm to predict the interest of the person and deliver respective schemes on his mobile phone."
-		},
-		{
-			"id": "uHcghElWk2NWPYdeU7JbM",
-			"title": "Rank 1 in Hello Web Hackathon",
-			"issuer": "The Mozilla Foundation",
-			"date": "Thu, 31 Aug 2017 18:30:00 GMT",
-			"description": "Developed a mobile application and named it as Chhotu.\n• Chhotu is article summarizer mobile application that can be used to generate the summary of a document provided by the user. \n• It doesn’t use any Machine Learning or Natural Language Processing Techniques, but Regex based string processing to achieve its goal.\n• This article summarizer was developed in under 24hrs time bracket during a hackathon competition hosted by Mozilla.\n• This mobile application fetched our team Rank 1 in this hackathon."
-		}
-	],
-	"recommendation": {
-		"received": [
-			{
-				"id": "zRWIrybru7CD9P6qlaAh-",
-				"person": "Rohan Negi",
-				"headline": "Software Engineer @DocuSign | 5+ years (Frontend) | Expertise in React, Vue, TypeScript",
-				"linkedin": "https://www.linkedin.com/in/rohan-negi-dev",
-				"date": "Thu, 04 Apr 2024 18:30:00 GMT",
-				"related": "Rohan was senior to Ritik but didn't manage Ritik directly",
-				"description": "I had the pleasure of working alongside Ritik at Plivo, where his dedication and adaptability were truly impressive. Ritik is a quick learner who consistently met task deadlines with precision and efficiency. His exceptional debugging skills were instrumental in ensuring smooth project execution. Moreover, Ritik's proficiency in React and JavaScript greatly contributed to our team's success. His ability to tackle complex problems with ease reflects his strong technical acumen. I highly recommend Ritik for any role requiring a skilled and diligent professional who delivers results consistently and effectively."
-			},
-			{
-				"id": "KdmfCSHGhP1xFbXVGIuVP",
-				"person": "Samuel Lawrentz",
-				"headline": "Senior UI Engineer | Plivo | DevExp Enthusiast",
-				"linkedin": "https://www.linkedin.com/in/samuel-lawrentz",
-				"date": "Fri, 23 Feb 2024 18:30:00 GMT",
-				"related": "Samuel worked with Ritik on the same team",
-				"description": "I've worked with Ritik on some interesting projects. He is a fast learner, an excellent team player and an expert in his niche. He meets timelines and delivers top quality output. He has great knowledge in UI development which includes React, vue, vanilla JS, CSS, etc. He can own an entire feature set independently and deliver things on time.He is attracted to modern tooling and tools. Always tries out new tools that enhances his productivity. It is an excellent experience to work along with him. Also a chill person to work with.Wishing you best of luck in your future endeavours Ritik!"
-			}
-		],
-		"given": [
-			{
-				"id": "z4UdzNEFIOqbr9Uj7TWHK",
-				"person": "Rohan Negi",
-				"headline": "Software Engineer @DocuSign | 5+ years (Frontend) | Expertise in React, Vue, TypeScript",
-				"linkedin": "https://www.linkedin.com/in/rohan-negi-dev",
-				"date": "Fri, 05 Apr 2024 18:30:00 GMT",
-				"related": "Rohan was senior to Ritik but didn't manage Ritik directly",
-				"description": "I had the privilege of collaborating closely with Rohan at Plivo, and I'm excited to share my firsthand experience of his remarkable software development abilities. Rohan's adeptness with TypeScript and React shines through in every project he tackles, delivering solutions that are not just reliable and efficient, but also scalable to meet evolving needs.Moreover, Rohan's outstanding communication skills and collaborative nature make him a valuable asset to any team. His ability to cultivate a positive and productive work environment, enhances team dynamics and project outcomes.I wholeheartedly endorse Rohan and am confident in his ability to excel in any endeavour he pursues."
-			},
-			{
-				"id": "55s6EZXgSsaqLhDpKrZKp",
-				"person": "Samuel Lawrentz",
-				"headline": "Senior UI Engineer | Plivo | DevExp Enthusiast",
-				"linkedin": "https://www.linkedin.com/in/samuel-lawrentz",
-				"date": "Fri, 23 Feb 2024 18:30:00 GMT",
-				"related": "Samuel was senior to Ritik but didn't manage Ritik directly",
-				"description": "Working with Samuel was a pleasure. His exceptional motivation, outstanding development skills, and contagious positive attitude consistently elevated our team's performance. He brings fresh ideas to every project, making him an invaluable asset. I highly recommend Sam for any software development role, confident that he will significantly elevate any project he takes on."
-			}
-		]
-	},
-	"updatedAt": "Fri, 30 May 2025 04:21:56 GMT"
+    "personal": {
+        "name": "Ritik Srivastava",
+        "displayEmail": "hi@ritik.me",
+        "title": "Creative | Technologist | Developer",
+        "currentRole": "Full Stack Developer",
+        "dob": "Tue, 10 Jun 1997 05:20:00 GMT",
+        "hobbies": [
+            "playing music",
+            "sketching",
+            "traveling",
+            "photography"
+        ],
+        "about": "Not just writing code — crafting resilient systems that breathe, scale, and adapt with users at the core, delivering performance driven solutions with real world impact.",
+        "location": {
+            "country": "India",
+            "city": "Bengaluru, Karnataka",
+            "full": "Bengaluru, Karnataka, India",
+            "country_code": "IN"
+        },
+        "linkedinConnections": 4841
+    },
+    "socialHandles": [
+        {
+            "platform": "linkedin",
+            "handle": "ItzzRitik",
+            "icon": "f0e1",
+            "color": "#0077B5",
+            "url": "https://www.linkedin.com/in"
+        },
+        {
+            "platform": "github",
+            "handle": "ItzzRitik",
+            "icon": "f09b",
+            "color": "#171515",
+            "url": "https://github.com"
+        },
+        {
+            "platform": "twitter",
+            "handle": "ItzzRitik",
+            "icon": "e61b",
+            "color": "#1DA1F2",
+            "url": "https://twitter.com"
+        },
+        {
+            "platform": "instagram",
+            "handle": "itzz_ritik",
+            "icon": "f16d",
+            "color": "#E1306C",
+            "url": "https://www.instagram.com"
+        },
+        {
+            "platform": "facebook",
+            "handle": "ItzzRitik",
+            "icon": "f39e",
+            "color": "#3B5998",
+            "url": "https://www.facebook.com"
+        }
+    ],
+    "education": [
+        {
+            "school": "Vellore Institute of Technology",
+            "field": "Computer Science",
+            "degree": "Bachelor of Technology - BTech",
+            "fromDate": "2016",
+            "toDate": "2020",
+            "score": "7.93 CGPA",
+            "linkedin": "https://www.linkedin.com/company/400138/",
+            "logo": "https://media.licdn.com/dms/image/v2/D560BAQH0u0StCXmEkg/company-logo_400_400/company-logo_400_400/0/1732705890200/vellore_institute_of_technology_logo?e=1754524800&v=beta&t=hP-31zZISvrw1QFan5_EIICUo7aeF6C2KshTMz2ESLI"
+        },
+        {
+            "school": "Dalimss Sunbeam School - India",
+            "field": "Intermediate",
+            "degree": "Central Board of Secondary Education - CBSE",
+            "fromDate": "2013",
+            "toDate": "2015",
+            "score": "76.8%",
+            "linkedin": "https://www.linkedin.com/company/7861703/",
+            "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFylAns5gpImg/company-logo_400_400/company-logo_400_400/0/1701334602718/dalimss_sunbeam_school_varanasi_logo?e=1754524800&v=beta&t=NLHQPJOi1titjP-2Arl3gwNEK7hL3FaUl5NHHYMDKZE"
+        },
+        {
+            "school": "W.H. Smith Memorial School - India",
+            "field": "High School",
+            "degree": "Indian Certificate of Secondary Education - ICSE",
+            "fromDate": "2000",
+            "toDate": "2013",
+            "score": "61.33%",
+            "linkedin": "https://www.linkedin.com/company/7904195/",
+            "logo": ""
+        }
+    ],
+    "experience": [
+        {
+            "title": "Full Stack Developer",
+            "company": "Adeptmind",
+            "employmentType": "Full-time",
+            "fromDate": "Feb 2024",
+            "toDate": "present",
+            "location": "Toronto, Ontario, Canada",
+            "linkedin": "https://www.linkedin.com/company/17991379/",
+            "description": "• Built an AI-powered blog system that auto-generates blogs on trending topics to boost traffic, Developed a templating engine that renders components from JSON data for dynamic content generation.\n• Created a drag-and-drop blog editor, allowing users to edit and update AI-generated blogs easily, Improved search and discovery features for e-commerce platforms.\n• Techstack: Vue, React, Python, Go, PostgreSQL, Redis, Docker",
+            "logo": "https://media.licdn.com/dms/image/v2/D560BAQGvPh-2O8lviA/company-logo_400_400/company-logo_400_400/0/1738949518143/adeptmind_logo?e=1754524800&v=beta&t=NQaF_Pu-3S6L2n36rh3Bfexab9TnC5x6ZlEZROTvko4"
+        },
+        {
+            "title": "Frontend Developer",
+            "company": "Plivo",
+            "employmentType": "Full-time",
+            "fromDate": "Jul 2022",
+            "toDate": "Feb 2024",
+            "location": "Bengaluru, Karnataka, India",
+            "linkedin": "https://www.linkedin.com/company/2386103/",
+            "description": "• Built key features for Contacto, a web and Electron-based omnichannel platform, driving user growth and positive feedback.\n• Developed a strong Role-Based Access Control (RBAC) system for precise user permissions.\nImproved browser compatibility, reducing UI issues by 25%.\n• Techstack: React, Vue, Sass, Electron, Redis, PubNub, Jenkins",
+            "logo": "https://media.licdn.com/dms/image/v2/D560BAQGPAsPvG1tyUg/company-logo_400_400/B56ZVcaoArGUAY-/0/1741012238866/plivo_inc_logo?e=1754524800&v=beta&t=v7MZ52OpVs_2I7jARkE8OOsRD67MLNd4CqLg3z6Nn5o"
+        },
+        {
+            "title": "Full Stack Developer",
+            "company": "Societe Generale Global Solution Centre",
+            "employmentType": "Full-time",
+            "fromDate": "Dec 2020",
+            "toDate": "Jul 2022",
+            "location": "Bengaluru, Karnataka, India",
+            "linkedin": "https://www.linkedin.com/company/9371944/",
+            "description": "• Successfully launched Societe Generale's inaugural branch in India, SG Mumbai overseeing seamless migrations and optimizations for multiple services ensuring a flawless execution with zero production bugs.\n• Designed and built key features for loan processing using LoanIQ and LoanSAT, improving operations.\n• Techstack: Java 11, Spring Boot, Swagger, Angular, SQL, Docker, Autosys",
+            "logo": "https://media.licdn.com/dms/image/v2/C510BAQFwBvGQK2NyEA/company-logo_400_400/company-logo_400_400/0/1630620434106/societe_generale_global_solution_centre_logo?e=1754524800&v=beta&t=dodm7nTV7TAGjLVgwq3Ac0QR5N3QeafeAuMGO5Q712A"
+        },
+        {
+            "title": "Full Stack Developer",
+            "company": "Postman",
+            "employmentType": "Internship",
+            "fromDate": "Dec 2019",
+            "toDate": "Jun 2020",
+            "location": "Bengaluru, Karnataka, India",
+            "linkedin": "https://www.linkedin.com/company/3795851/",
+            "description": "• Played a key role in developing new design systems and integrating integrating color schemes in desktop app.\n• Enhanced and optimized the App Release Service, responsible for delivering, Postman application packages and updates to 35M+ users.\n• Techstack: React, Angular, Node, Express, Electron, SQL, Mongo, Redis",
+            "logo": "https://media.licdn.com/dms/image/v2/C560BAQFf8sH83foEVg/company-logo_400_400/company-logo_400_400/0/1654794308958/postman_platform_logo?e=1754524800&v=beta&t=8OU_-ZHtPCK0ixsP3XE-rRNemfEjHFYVQj2N4NJ6jDg"
+        },
+        {
+            "title": "Co-Founder & CTO",
+            "company": "Sanrakshak",
+            "employmentType": "Self-employed",
+            "fromDate": "Aug 2018",
+            "toDate": "Mar 2020",
+            "location": "Chennai, Tamil Nadu, India",
+            "linkedin": "https://www.linkedin.com/company/14577069/",
+            "description": "We at Sanrakshak have pledged to provide the utmost safe and secure railway journey to our fellow passengers by attaching our robust and affordable sensors beneath the engine of the train.\nThis provides real-time data about the occurrence of cracks or any kind of faults on the railway line and ultimately offers a holistic end to end solution to the government.\n\n• National Rank 1 at \"Sabre Hack 2019\", Bengaluru.\n• Represented India in the final pitch at \"German-Indian Startup Connect 2K18\", Munich Germany.\n• National Winners of \"TATA Grand Indian IoT Challange 2018\", Pune.\n• Winner of Bootcamp at Indian Institute of Technology, Madras.",
+            "logo": "https://media.licdn.com/dms/image/v2/C510BAQGFcw0MO6JXUQ/company-logo_400_400/company-logo_400_400/0/1630632454499?e=1754524800&v=beta&t=apVowk5kXyFogjfFlLtWrUXuHvo1J0dwrhUNOppbO5w"
+        },
+        {
+            "title": "Full Stack Developer",
+            "company": "Frappe",
+            "employmentType": "Internship",
+            "fromDate": "May 2018",
+            "toDate": "Jul 2018",
+            "location": "Mumbai, Maharashtra, India",
+            "linkedin": "https://www.linkedin.com/company/14618702/",
+            "description": "A cross-platform application built by our intern team.\n\nTechnology used:\n   • Ionic Framework\n   • NodeJS, Yarn\n   • HTML, SCSS, TypeScript\n\nERPNext is a fully featured ERP with Financial\naccounting, Inventory, Invoicing, Payments and Reports.",
+            "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFRYX44qODzeQ/company-logo_400_400/company-logo_400_400/0/1706868739829/frappe_technologies_logo?e=1754524800&v=beta&t=N4o-ZmQRNcTKcOPP-ccL-KyzhXq8xoR_CYpeosPx47w"
+        }
+    ],
+    "language": [
+        {
+            "name": "English",
+            "proficiency": "Full professional proficiency"
+        },
+        {
+            "name": "French",
+            "proficiency": "Elementary proficiency"
+        },
+        {
+            "name": "Hindi",
+            "proficiency": "Native or bilingual proficiency"
+        }
+    ],
+    "award": [
+        {
+            "title": "National Rank 1 in SabreHack 2019",
+            "issuer": "Sabre India",
+            "date": "Dec 2019",
+            "description": "Started among one of the 1434 teams that participated and made to the very top to achieve National Rank 1 in SabreHack 2019. Won a cash prize worth ₹2,00,000."
+        },
+        {
+            "title": "Rank 1 in Bootcamp, E-Summit",
+            "issuer": "IIT Madras",
+            "date": "Mar 2019",
+            "description": "• This venture in E-Summit is studded with the best and most innovative ideas, a small 3-day educational journey with the thrill of a pitching competition at the beginning and the end. \n• The mentors and participants are chosen to complement each other in the best way possible to make the event a spectacular learning experience.\n• Fetched National Level Rank 1 and Cash Prize worth 50 Thousand."
+        },
+        {
+            "title": "National Rank 3 in TATA Grand IoT Challenge",
+            "issuer": "TATA Communications",
+            "date": "Dec 2018",
+            "description": "• Built an IoT solution for digital transformation needs that will enable stakeholders in society (Government bodies, Corporate world etc)\n• Fetched National Level Rank 3 and Cash Prize worth 1.5 Lakhs."
+        },
+        {
+            "title": "Represented India in German-Indian Startup Exchange Program",
+            "issuer": "German Indian Startup Exchange Program",
+            "date": "Nov 2018",
+            "description": "• Represented India in Germany for the Final Pitch among Top 10 Finalists at German-Indian Startup Connect 2K18, in Munich, Germany.\n• Organised By German Indian Startup Exchange Program."
+        },
+        {
+            "title": "National Top 7 in Master Plan 2K18",
+            "issuer": "IIM Ahmedabad",
+            "date": "Oct 2018",
+            "description": "• Masterplan is the annual business plan competition hosted by IIM Ahmedabad. Masterplan seeks to identify budding entrepreneurs to contribute to India’s buzzing economy.\n• It is organized by Entre Cell, in collaboration with The Centre for Innovation Incubation and Entrepreneurship (CIIE) and Red Brick Summit.\n• Achieved Top 7 Rank after clearing multiple elimination rounds in National Business Plan Competition by IIM Ahmedabad."
+        },
+        {
+            "title": "Top 5 in Facebook Developer Hackathon",
+            "issuer": "Facebook for Developers",
+            "date": "Oct 2018",
+            "description": "Developed a mobile application and named it as Medisyst.\n• Machine Learning based solution for the prediction of diseases on the basis of Symptoms, Gender and Age.\n• It Provides all possible diseases with their percentage of accuracy.\n• Secured Top 5 position among all other competitors.\n"
+        },
+        {
+            "title": "Rank 1 in Ideathon hosted by OWASP",
+            "issuer": "Open Web Application Security Project (OWASP)",
+            "date": "Sep 2018",
+            "description": "Developed a mobile application and named it as Shashakti - Empowering Nation.\n• A Mechanism to deliver government schemes to all the citizen.\n• Uses machine learning algorithm to predict the interest of the person and deliver respective schemes on his mobile phone.\n"
+        },
+        {
+            "title": "Rank 1 in Hello Web Hackathon",
+            "issuer": "The Mozilla Foundation",
+            "date": "Sep 2017",
+            "description": "Developed a mobile application and named it as Chhotu.\n• Chhotu is article summarizer mobile application that can be used to generate the summary of a document provided by the user. \n• It doesn’t use any Machine Learning or Natural Language Processing Techniques, but Regex based string processing to achieve its goal.\n• This article summarizer was developed in under 24hrs time bracket during a hackathon competition hosted by Mozilla.\n• This mobile application fetched our team Rank 1 in this hackathon."
+        }
+    ],
+    "recommendation": {
+        "received": [
+            {
+                "name": "Rohan Negi",
+                "title": "Frontend Engineer @DocuSign",
+                "linkedin": "ACoAAB1zQ44BoifEQHe8DGKVW4SgAl4pZNfoP7E",
+                "date": "5 Apr 2024",
+                "relationship": "Rohan was senior to Ritik but didn't manage Ritik directly",
+                "description": "I had the pleasure of working alongside Ritik at Plivo, where his dedication and adaptability were truly impressive. Ritik is a quick learner who consistently met task deadlines with precision and efficiency. His exceptional debugging skills were instrumental in ensuring smooth project execution. Moreover, Ritik's proficiency in React and JavaScript greatly contributed to our team's success. His ability to tackle complex problems with ease reflects his strong technical acumen. I highly recommend Ritik for any role requiring a skilled and diligent professional who delivers results consistently and effectively."
+            },
+            {
+                "name": "Samuel Lawrentz",
+                "title": "SDE-3 @ Plivo | Product Engineer | Typescript",
+                "linkedin": "ACoAAAxEKOMBsTePhSrupFd31rdmKnb4GyZp6BE",
+                "date": "24 Feb 2024",
+                "relationship": "Samuel worked with Ritik on the same team",
+                "description": "I've worked with Ritik on some interesting projects. He is a fast learner, an excellent team player and an expert in his niche. He meets timelines and delivers top quality output. He has great knowledge in UI development which includes React, vue, vanilla JS, CSS, etc. He can own an entire feature set independently and deliver things on time.\n\nHe is attracted to modern tooling and tools. Always tries out new tools that enhances his productivity. It is an excellent experience to work along with him. Also a chill person to work with.\n\nWishing you best of luck in your future endeavours Ritik!"
+            }
+        ],
+        "given": [
+            {
+                "name": "Rohan Negi",
+                "title": "Frontend Engineer @DocuSign",
+                "linkedin": "ACoAAB1zQ44BoifEQHe8DGKVW4SgAl4pZNfoP7E",
+                "date": "6 Apr 2024",
+                "relationship": "Rohan was senior to Ritik but didn't manage Ritik directly",
+                "description": "I had the privilege of collaborating closely with Rohan at Plivo, and I'm excited to share my firsthand experience of his remarkable software development abilities. Rohan's adeptness with TypeScript and React shines through in every project he tackles, delivering solutions that are not just reliable and efficient, but also scalable to meet evolving needs.\nMoreover, Rohan's outstanding communication skills and collaborative nature make him a valuable asset to any team. His ability to cultivate a positive and productive work environment, enhances team dynamics and project outcomes.\nI wholeheartedly endorse Rohan and am confident in his ability to excel in any endeavour he pursues."
+            },
+            {
+                "name": "Samuel Lawrentz",
+                "title": "SDE-3 @ Plivo | Product Engineer | Typescript",
+                "linkedin": "ACoAAAxEKOMBsTePhSrupFd31rdmKnb4GyZp6BE",
+                "date": "24 Feb 2024",
+                "relationship": "Samuel was senior to Ritik but didn't manage Ritik directly",
+                "description": "Working with Samuel was a pleasure. His exceptional motivation, outstanding development skills, and contagious positive attitude consistently elevated our team's performance. He brings fresh ideas to every project, making him an invaluable asset. I highly recommend Sam for any software development role, confident that he will significantly elevate any project he takes on."
+            }
+        ]
+    },
+    "skills": [
+        "Python",
+        "Django",
+        "Vue.js",
+        "NestJS",
+        "Redis",
+        "Full-Stack Development",
+        "User Interface Design",
+        "Cross-platform Development",
+        "User Experience (UX)",
+        "User Experience Design",
+        "Android Development",
+        "Web Development",
+        "Project Management",
+        "Agile Environment",
+        "Data Structures",
+        "Front-end Development",
+        "Algorithms",
+        "Software Development",
+        "Mobile Applications",
+        "Web Applications",
+        "Responsive Web Design",
+        "C (Programming Language)",
+        "C++",
+        "JavaScript",
+        "Java",
+        "HTML",
+        "Cascading Style Sheets (CSS)",
+        "MongoDB",
+        "Node.js",
+        "React.js",
+        "SQL",
+        "PHP",
+        "React Native",
+        "MySQL",
+        "HTML5",
+        "Sails.js",
+        "Chai.js",
+        "Mocha",
+        "LESS (Stylesheet Language)",
+        "SASS",
+        "Android",
+        "Leadership",
+        "Management",
+        "Problem Solving",
+        "Express.js",
+        "Web Mining",
+        "Web Crawling",
+        "Sinon",
+        "Back-End Web Development",
+        "Mobile Application Development",
+        "TypeScript",
+        "Progressive Web Applications (PWAs)"
+    ],
+    "updatedAt": "Sun, 01 Jun 2025 02:27:25 GMT"
 }
