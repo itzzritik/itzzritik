@@ -163,16 +163,16 @@
     ],
     "language": [
         {
-            "name": "French",
-            "proficiency": "Elementary proficiency"
+            "name": "Hindi",
+            "proficiency": "Native or bilingual proficiency"
         },
         {
             "name": "English",
             "proficiency": "Full professional proficiency"
         },
         {
-            "name": "Hindi",
-            "proficiency": "Native or bilingual proficiency"
+            "name": "French",
+            "proficiency": "Elementary proficiency"
         }
     ],
     "award": [
@@ -317,5 +317,5 @@
         "Web Development",
         "Web Mining"
     ],
-    "updatedAt": "Sun, 15 Jun 2025 03:26:01 GMT"
+    "updatedAt": "Sun, 15 Jun 2025 03:26:46 GMT"
 }
