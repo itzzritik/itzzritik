@@ -18,7 +18,12 @@
             "full": "Bengaluru, Karnataka, India",
             "country_code": "IN"
         },
-        "linkedinConnections": 4860
+        "linkedinConnections": 4860,
+        "emails": [
+            "ritik.space@gmail.com",
+            "ritik.srivastava2016@vitstudent.ac.in",
+            "hi@ritik.me"
+        ]
     },
     "socialHandles": [
         {
@@ -313,5 +318,5 @@
         "TypeScript",
         "Progressive Web Applications (PWAs)"
     ],
-    "updatedAt": "Sun, 15 Jun 2025 00:00:19 GMT"
+    "updatedAt": "Sun, 15 Jun 2025 01:30:53 GMT"
 }
