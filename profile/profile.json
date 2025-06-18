@@ -22,7 +22,26 @@
         "emails": [
             "ritik.space@gmail.com",
             "hi@ritik.me"
-        ]
+        ],
+        "tagline": "Not just writing code — crafting resilient systems that breathe, scale, and adapt with users at core, delivering high-performance results with real-world impact",
+        "github": {
+            "handle": "itzzritik",
+            "followers": 44,
+            "following": 15,
+            "public_repos": 56,
+            "public_gists": 1
+        },
+        "linkedin": {
+            "avatar": "https://media.licdn.com/dms/image/v2/C5103AQEOVADi-UkHYA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1573077385368?e=1755734400&v=beta&t=EP0HQxAqn2Apb-jkZtka5RWF5pVU_76mbs-gSo2fegU",
+            "cover": "https://media.licdn.com/dms/image/v2/C5616AQEFg47Xpmvj5g/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1607631742722?e=1755734400&v=beta&t=4WoW-dG0N5T4dxzBSTsFch_Fi4gfjJSrGRnQoEnl5dc",
+            "handle": "itzzritik",
+            "connections": 4864,
+            "followers": 4839
+        },
+        "seo": {
+            "title": "Ritik Srivastava | Full Stack Developer Portfolio",
+            "description": "Not just writing code — crafting resilient systems that breathe, scale, and adapt with users at the core, delivering performance driven solutions with real world impact."
+        }
     },
     "socialHandles": [
         {
@@ -343,5 +362,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Wed, 18 Jun 2025 00:00:20 GMT"
+    "updatedAt": "Wed, 18 Jun 2025 23:21:11 GMT"
 }
