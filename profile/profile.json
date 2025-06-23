@@ -284,22 +284,20 @@
     },
     "topSkills": [
         "TypeScript",
-        "Python",
-        "Django",
-        "Redis",
-        "Full-Stack Development",
-        "Data Structures",
-        "Algorithms",
         "JavaScript",
         "Java",
-        "MongoDB",
+        "Python",
         "Node.js",
         "React.js",
+        "Next.js",
+        "NestJS",
+        "Vue.js",
+        "Express.js",
+        "Django",
         "SQL",
-        "React Native",
-        "MySQL",
-        "Problem Solving",
-        "Express.js"
+        "MongoDB",
+        "Redis",
+        "React Native"
     ],
     "skills": [
         "Agile Environment",
@@ -382,5 +380,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Mon, 23 Jun 2025 08:38:42 GMT"
+    "updatedAt": "Mon, 23 Jun 2025 08:54:39 GMT"
 }
