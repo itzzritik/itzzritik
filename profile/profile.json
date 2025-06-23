@@ -290,8 +290,8 @@
         "Node.js",
         "React.js",
         "Next.js",
-        "NestJS",
         "Vue.js",
+        "NestJS",
         "Express.js",
         "Django",
         "SQL",
@@ -380,5 +380,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Mon, 23 Jun 2025 08:54:39 GMT"
+    "updatedAt": "Mon, 23 Jun 2025 09:08:17 GMT"
 }
