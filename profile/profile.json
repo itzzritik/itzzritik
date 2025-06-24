@@ -292,12 +292,12 @@
         "Next.js",
         "Vue.js",
         "NestJS",
+        "React Native",
         "Express.js",
         "Django",
         "SQL",
         "MongoDB",
-        "Redis",
-        "React Native"
+        "Redis"
     ],
     "skills": [
         "Agile Environment",
@@ -380,5 +380,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Mon, 23 Jun 2025 09:08:17 GMT"
+    "updatedAt": "Tue, 24 Jun 2025 00:16:24 GMT"
 }
