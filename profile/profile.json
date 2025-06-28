@@ -59,18 +59,18 @@
             "url": "https://github.com"
         },
         {
-            "platform": "x",
-            "handle": "ItzzRitik",
-            "icon": "e61b",
-            "color": "#000000",
-            "url": "https://x.com"
-        },
-        {
             "platform": "instagram",
             "handle": "itzz_ritik",
             "icon": "f16d",
             "color": "#E1306C",
             "url": "https://www.instagram.com"
+        },
+        {
+            "platform": "x",
+            "handle": "ItzzRitik",
+            "icon": "e61b",
+            "color": "#000000",
+            "url": "https://x.com"
         },
         {
             "platform": "facebook",
@@ -380,5 +380,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Tue, 24 Jun 2025 00:16:24 GMT"
+    "updatedAt": "Sat, 28 Jun 2025 19:06:27 GMT"
 }
