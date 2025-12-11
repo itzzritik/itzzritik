@@ -32,8 +32,8 @@
             "public_gists": 1
         },
         "linkedin": {
-            "avatar": "https://media.licdn.com/dms/image/v2/C5103AQEOVADi-UkHYA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1573077385368?e=1767225600&v=beta&t=4h48M37EXU0DEqvL7DWfUsoHC3U2blTOkz45zCtmUjI",
-            "cover": "https://media.licdn.com/dms/image/v2/C5616AQEFg47Xpmvj5g/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1607631742722?e=1767225600&v=beta&t=hSbKwt5AAY0uTQkvAiMvCD0zzVfnhseXeVSDIKsoxtU",
+            "avatar": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/avatar.jpg",
+            "cover": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/cover.jpg",
             "handle": "itzzritik",
             "connections": 4989,
             "followers": 4962
@@ -89,7 +89,7 @@
             "toDate": "2020",
             "score": "7.93 CGPA",
             "linkedin": "https://www.linkedin.com/company/400138/",
-            "logo": "https://media.licdn.com/dms/image/v2/D560BAQH0u0StCXmEkg/company-logo_400_400/company-logo_400_400/0/1732705890200/vellore_institute_of_technology_logo?e=1767225600&v=beta&t=hWYhmEsZG5kATo10I-C9gdfSsxrojVoG6A7ZYuouhjk"
+            "logo": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/school-vellore-institute-of-technology.jpg"
         },
         {
             "school": "Dalimss Sunbeam School - India",
@@ -99,7 +99,7 @@
             "toDate": "2015",
             "score": "76.8%",
             "linkedin": "https://www.linkedin.com/company/7861703/",
-            "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFylAns5gpImg/company-logo_400_400/company-logo_400_400/0/1701334602718/dalimss_sunbeam_school_varanasi_logo?e=1767225600&v=beta&t=L0S7vVT-naorLSvtdgkPOhU5fKezhqZla5RPG69zbOw"
+            "logo": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/school-dalimss-sunbeam-school-india.jpg"
         },
         {
             "school": "W.H. Smith Memorial School - India",
@@ -121,7 +121,7 @@
             "location": "Toronto, Ontario, Canada",
             "linkedin": "https://www.linkedin.com/company/17991379/",
             "description": "• Engineered an end-to-end AI-powered blogging platform, automating content generation based on trending topics to drive organic traffic\n• Developed a dynamic templating engine rendering components from JSON data, paired with a custom drag-and-drop editor (Vue/React) to streamline content workflows\n• Optimized search and discovery infrastructure for e-commerce client platforms, enhancing data retrieval speeds\n• Tech: Vue, React, Python, Django, PostgreSQL, Redis, Docker, OpenAI",
-            "logo": "https://media.licdn.com/dms/image/v2/D560BAQGvPh-2O8lviA/company-logo_400_400/company-logo_400_400/0/1738949518143/adeptmind_logo?e=1767225600&v=beta&t=6CyQadjFHzdvxwFOPjzyJLoAGkKHwPFEyXpTYjyNj90"
+            "logo": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/company-adeptmind.jpg"
         },
         {
             "title": "Full Stack Developer",
@@ -132,7 +132,7 @@
             "location": "Bengaluru, Karnataka, India",
             "linkedin": "https://www.linkedin.com/company/2386103/",
             "description": "• Delivered critical features for Contacto, a complex web and Electron-based omnichannel communication platform\n• Achieved a 25% reduction in UI issues by resolving cross-browser compatibility challenges and optimizing frontend performance\n• Architected a robust Role-Based Access Control (RBAC) system, ensuring precise user permission management across the platform\n• Tech: React, Vue, Electron, Redis, Jenkins, SCSS",
-            "logo": "https://media.licdn.com/dms/image/v2/D560BAQGPAsPvG1tyUg/company-logo_400_400/B56ZVcaoArGUAY-/0/1741012238866/plivo_inc_logo?e=1767225600&v=beta&t=3IyLxvO2QJDaYP1UYj3D5Uz-gadd4SgOIRAibImAvTc"
+            "logo": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/company-plivo.jpg"
         },
         {
             "title": "Full Stack Developer",
@@ -143,7 +143,7 @@
             "location": "Bengaluru, Karnataka, India",
             "linkedin": "https://www.linkedin.com/company/9371944/",
             "description": "• Spearheaded the technical setup for SG’s inaugural branch launch in India, executing seamless service migrations with zero production defects\n• Designed and built core financial features for loan processing (LoanIQ and LoanSAT) using Java Spring Boot and Angular, significantly improving operational efficiency\n• Tech: Java 11, Spring Boot, Angular, SQL, Docker, AWS",
-            "logo": "https://media.licdn.com/dms/image/v2/C510BAQFwBvGQK2NyEA/company-logo_400_400/company-logo_400_400/0/1630620434106/societe_generale_global_solution_centre_logo?e=1767225600&v=beta&t=gV8-Is8o6_D77V-j0h4McbLWulYBaPpVIzTCIiIlKwU"
+            "logo": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/company-societe-generale-global-solution-centre.jpg"
         },
         {
             "title": "Full Stack Developer",
@@ -154,7 +154,7 @@
             "location": "Bengaluru, Karnataka, India",
             "linkedin": "https://www.linkedin.com/company/3795851/",
             "description": "• Optimized the App Release Service responsible for delivering seamless updates and packages to a massive user base of 35M+ global users\n• Developed scalable design systems and integrated dynamic color schemes into the core Electron desktop application\n• Tech: React, Node, Express, Electron, Mongo, Redis",
-            "logo": "https://media.licdn.com/dms/image/v2/C560BAQFf8sH83foEVg/company-logo_400_400/company-logo_400_400/0/1654794308958/postman_platform_logo?e=1767225600&v=beta&t=n0iNWSmkbp0T5bnJy9mn2OXOMhp_lZ9Ilg5jGjGc83Q"
+            "logo": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/company-postman.jpg"
         },
         {
             "title": "Co-Founder & CTO",
@@ -165,7 +165,7 @@
             "location": "Chennai, Tamil Nadu, India",
             "linkedin": "https://www.linkedin.com/company/14577069/",
             "description": "• At Sanrakshak, we committed to making railway journeys safer by developing robust and affordable sensors mounted beneath train engines.\n• These sensors delivered real-time data on cracks or faults in railway tracks, offering a comprehensive end-to-end monitoring solution for government adoption.\n• Recognized with multiple accolades:\n – National Rank 1, Sabre Hack 2019 (Bengaluru)\n – India Finalist, German-Indian Startup Connect 2018 (Munich, Germany)\n – National Winner, TATA Grand Indian IoT Challenge 2018 (Pune)\n – Winner, IoT Bootcamp, Indian Institute of Technology Madras\n• Techstack: Android Studio, Node.js, React, TypeScript, Socket.IO, Arduino, IoT Sensors",
-            "logo": "https://media.licdn.com/dms/image/v2/C510BAQGFcw0MO6JXUQ/company-logo_400_400/company-logo_400_400/0/1630632454499?e=1767225600&v=beta&t=FWrpRDQMkLboomGcBoE3hvjw-e03dGdrbNGp2JrBLO8"
+            "logo": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/company-sanrakshak.jpg"
         },
         {
             "title": "Full Stack Developer",
@@ -176,7 +176,7 @@
             "location": "Mumbai, Maharashtra, India",
             "linkedin": "https://www.linkedin.com/company/14618702/",
             "description": "• Contributed to a cross-platform application as part of the intern team, supporting ERPNext - an open source ERP platform offering modules for finance, inventory, invoicing, and reporting.\n• Built key components using the Ionic framework, focusing on responsiveness and seamless UI experience across web and mobile platforms.\n• Techstack: Ionic, Node.js, TypeScript, HTML, SCSS",
-            "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFRYX44qODzeQ/company-logo_400_400/company-logo_400_400/0/1706868739829/frappe_technologies_logo?e=1767225600&v=beta&t=cLgeX71nnng2sITR3uo_p29mEnasjPMJnNfnrxpKFvw"
+            "logo": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/company-frappe.jpg"
         }
     ],
     "language": [
@@ -197,49 +197,49 @@
         {
             "title": "National Rank 1 in SabreHack 2019",
             "issuer": "Dec 2019",
-            "date": "2025-12-11T14:02:05.315Z",
+            "date": "2025-12-11T14:03:25.540Z",
             "description": "Started among one of the 1434 teams that participated and made to the very top to achieve National Rank 1 in SabreHack 2019. Won a cash prize worth ₹2,00,000."
         },
         {
             "title": "Rank 1 in Bootcamp, E-Summit",
             "issuer": "Mar 2019",
-            "date": "2025-12-11T14:02:05.315Z",
+            "date": "2025-12-11T14:03:25.540Z",
             "description": "• This venture in E-Summit is studded with the best and most innovative ideas, a small 3-day educational journey with the thrill of a pitching competition at the beginning and the end. \n• The mentors and participants are chosen to complement each other in the best way possible to make the event a spectacular learning experience.\n• Fetched National Level Rank 1 and Cash Prize worth 50 Thousand."
         },
         {
             "title": "National Rank 3 in TATA Grand IoT Challenge",
             "issuer": "Dec 2018",
-            "date": "2025-12-11T14:02:05.315Z",
+            "date": "2025-12-11T14:03:25.540Z",
             "description": "• Built an IoT solution for digital transformation needs that will enable stakeholders in society (Government bodies, Corporate world etc)\n• Fetched National Level Rank 3 and Cash Prize worth 1.5 Lakhs."
         },
         {
             "title": "Represented India in German-Indian Startup Exchange Program",
             "issuer": "Nov 2018",
-            "date": "2025-12-11T14:02:05.315Z",
+            "date": "2025-12-11T14:03:25.540Z",
             "description": "• Represented India in Germany for the Final Pitch among Top 10 Finalists at German-Indian Startup Connect 2K18, in Munich, Germany.\n• Organised By German Indian Startup Exchange Program."
         },
         {
             "title": "National Top 7 in Master Plan 2K18",
             "issuer": "Oct 2018",
-            "date": "2025-12-11T14:02:05.315Z",
+            "date": "2025-12-11T14:03:25.540Z",
             "description": "• Masterplan is the annual business plan competition hosted by IIM Ahmedabad. Masterplan seeks to identify budding entrepreneurs to contribute to India’s buzzing economy.\n• It is organized by Entre Cell, in collaboration with The Centre for Innovation Incubation and Entrepreneurship (CIIE) and Red Brick Summit.\n• Achieved Top 7 Rank after clearing multiple elimination rounds in National Business Plan Competition by IIM Ahmedabad."
         },
         {
             "title": "Top 5 in Facebook Developer Hackathon",
             "issuer": "Oct 2018",
-            "date": "2025-12-11T14:02:05.315Z",
+            "date": "2025-12-11T14:03:25.540Z",
             "description": "Developed a mobile application and named it as Medisyst.\n• Machine Learning based solution for the prediction of diseases on the basis of Symptoms, Gender and Age.\n• It Provides all possible diseases with their percentage of accuracy.\n• Secured Top 5 position among all other competitors.\n"
         },
         {
             "title": "Rank 1 in Ideathon hosted by OWASP",
             "issuer": "Sep 2018",
-            "date": "2025-12-11T14:02:05.315Z",
+            "date": "2025-12-11T14:03:25.540Z",
             "description": "Developed a mobile application and named it as Shashakti - Empowering Nation.\n• A Mechanism to deliver government schemes to all the citizen.\n• Uses machine learning algorithm to predict the interest of the person and deliver respective schemes on his mobile phone.\n"
         },
         {
             "title": "Rank 1 in Hello Web Hackathon",
             "issuer": "Sep 2017",
-            "date": "2025-12-11T14:02:05.315Z",
+            "date": "2025-12-11T14:03:25.540Z",
             "description": "Developed a mobile application and named it as Chhotu.\n• Chhotu is article summarizer mobile application that can be used to generate the summary of a document provided by the user. \n• It doesn’t use any Machine Learning or Natural Language Processing Techniques, but Regex based string processing to achieve its goal.\n• This article summarizer was developed in under 24hrs time bracket during a hackathon competition hosted by Mozilla.\n• This mobile application fetched our team Rank 1 in this hackathon."
         }
     ],
@@ -385,5 +385,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Thu, 11 Dec 2025 14:02:05 GMT"
+    "updatedAt": "Thu, 11 Dec 2025 14:03:25 GMT"
 }
