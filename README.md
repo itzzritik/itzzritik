@@ -92,6 +92,6 @@
 [AdeptMind]: https://github.com/AdeptMind "AdeptMind Github Page"
 [LinkedIn]: https://www.linkedin.com/in/itzzritik "Ritik's LinkedIn"
 [Portfolio]: https://ritik.me "Ritik's Portfolio"
-[Resume]: https://ritik.me/cv "Checkout Ritik's Resume"
+[Resume]: https://cv.ritik.me "Checkout Ritik's Resume"
 [Meeting]: https://calendly.com/itzzritik/hello "Schedule a meeting"
 
