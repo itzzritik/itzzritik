@@ -360,8 +360,6 @@
         "Web Mining",
         "WebSocket"
     ],
-    "updatedAt": "Thu, 15 Jan 2026 21:11:17 GMT",
-    "cachedAt": "Thu, 15 Jan 2026 21:02:06 GMT",
     "links": [
         {
             "key": "cv",
@@ -377,7 +375,7 @@
         },
         {
             "key": "git",
-            "url": "https://github.com/itzzritik"
+            "url": "https://github.com/ItzzRitik"
         },
         {
             "key": "huddle",
@@ -395,5 +393,6 @@
             "key": "sabre",
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
-    ]
+    ],
+    "updatedAt": "Thu, 15 Jan 2026 21:22:26 GMT"
 }
