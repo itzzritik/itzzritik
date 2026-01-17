@@ -93,5 +93,5 @@
 [LinkedIn]: https://www.linkedin.com/in/itzzritik "Ritik's LinkedIn"
 [Portfolio]: https://ritik.me "Ritik's Portfolio"
 [Resume]: https://cv.ritik.me "Checkout Ritik's Resume"
-[Meeting]: https://huddle.ritik.me "Schedule a meeting" 
+[Meeting]: https://meet.ritik.me "Schedule a meeting" 
 
