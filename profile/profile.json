@@ -42,7 +42,10 @@
             "title": "Ritik Srivastava | Full Stack Developer Portfolio",
             "description": "Ritik Srivastava, a Frontend, Backend & Full Stack Developer in Bengaluru, skilled in React, Vue, Node, AI systems & scalable apps. Creative & efficient."
         },
-        "website": "ritik.me"
+        "website": "ritik.me",
+        "npx": "npx ritik"
+        "resume": "https://cv.ritik.me"
+        "meeting": "https://meet.ritik.me"
     },
     "socialHandles": [
         {
