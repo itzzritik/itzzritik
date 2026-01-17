@@ -378,10 +378,6 @@
             "url": "https://github.com/ItzzRitik"
         },
         {
-            "key": "huddle",
-            "url": "https://calendar.app.google/UKz2ev6HnJi55CxZ9"
-        },
-        {
             "key": "in",
             "url": "https://www.linkedin.com/in/itzzritik"
         },
@@ -390,9 +386,13 @@
             "url": "https://raw.githubusercontent.com/itzzritik/XtremeSetup/main/Jarvis/jarvis.sh"
         },
         {
+            "key": "meet",
+            "url": "https://calendar.app.google/UKz2ev6HnJi55CxZ9"
+        },
+        {
             "key": "sabre",
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Sat, 17 Jan 2026 12:30:42 GMT"
+    "updatedAt": "Sat, 17 Jan 2026 15:22:27 GMT"
 }
