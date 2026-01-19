@@ -385,16 +385,16 @@
             "url": "https://github.com/ItzzRitik"
         },
         {
-            "key": "ig",
-            "url": "https://www.instagram.com/itzz_ritik"
-        },
-        {
             "key": "in",
             "url": "https://www.linkedin.com/in/itzzritik"
         },
         {
             "key": "jarvis-setup",
             "url": "https://raw.githubusercontent.com/itzzritik/XtremeSetup/main/Jarvis/jarvis.sh"
+        },
+        {
+            "key": "ll",
+            "url": "https://www.instagram.com/itzz_ritik"
         },
         {
             "key": "meet",
@@ -405,5 +405,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Mon, 19 Jan 2026 11:54:44 GMT"
+    "updatedAt": "Mon, 19 Jan 2026 11:56:30 GMT"
 }
