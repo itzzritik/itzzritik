@@ -385,9 +385,17 @@
             "url": "https://www.linkedin.com/in/itzzritik"
         },
         {
+            "key": "jarvis-setup",
+            "url": "https://raw.githubusercontent.com/itzzritik/XtremeSetup/main/Jarvis/jarvis.sh"
+        },
+        {
+            "key": "meet",
+            "url": "https://calendar.app.google/UKz2ev6HnJi55CxZ9"
+        },
+        {
             "key": "sabre",
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Mon, 19 Jan 2026 15:08:31 GMT"
+    "updatedAt": "Mon, 19 Jan 2026 16:32:11 GMT"
 }
