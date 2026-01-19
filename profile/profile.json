@@ -365,9 +365,13 @@
     ],
     "links": [
         {
+            "key": "ig",
+            "url": "https://www.instagram.com/itzz_ritik"
+        },
+        {
             "key": "meet",
             "url": "https://calendar.app.google/UKz2ev6HnJi55CxZ9"
         }
     ],
-    "updatedAt": "Mon, 19 Jan 2026 13:24:34 GMT"
+    "updatedAt": "Mon, 19 Jan 2026 13:28:57 GMT"
 }
