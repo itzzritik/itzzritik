@@ -394,7 +394,7 @@
         },
         {
             "key": "json",
-            "url": "https://portfolio.ritik.me/api/profile?prett"
+            "url": "https://portfolio.ritik.me/api/profile?pretty"
         },
         {
             "key": "meet",
@@ -405,5 +405,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Fri, 30 Jan 2026 16:36:11 GMT"
+    "updatedAt": "Fri, 30 Jan 2026 16:36:46 GMT"
 }
