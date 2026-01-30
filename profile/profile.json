@@ -35,8 +35,8 @@
             "avatar": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/linkedin-avatar.jpg",
             "cover": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/linkedin-cover.jpg",
             "handle": "itzzritik",
-            "connections": 5040,
-            "followers": 5016
+            "connections": 5041,
+            "followers": 5017
         },
         "seo": {
             "title": "Ritik Srivastava | Full Stack Developer Portfolio",
@@ -133,7 +133,7 @@
             "employmentType": "Full-time",
             "fromDate": "Jul 2022",
             "toDate": "Feb 2024",
-            "location": "San Francisco, CA",
+            "location": "San Francisco, California, United States",
             "linkedin": "https://www.linkedin.com/company/2386103/",
             "description": "• Delivered critical features for Contacto, a complex web and Electron-based omnichannel communication platform\n• Achieved a 25% reduction in UI issues by resolving cross-browser compatibility challenges and optimizing frontend performance\n• Architected a robust Role-Based Access Control (RBAC) system, ensuring precise user permission management across the platform\n• Tech: React, Vue, Electron, Redis, Jenkins, SCSS",
             "logo": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/company-plivo.jpg"
@@ -401,5 +401,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Thu, 29 Jan 2026 12:30:52 GMT"
+    "updatedAt": "Fri, 30 Jan 2026 12:30:49 GMT"
 }
