@@ -393,6 +393,10 @@
             "url": "https://raw.githubusercontent.com/itzzritik/XtremeSetup/main/Jarvis/jarvis.sh"
         },
         {
+            "key": "json",
+            "url": "https://portfolio.ritik.me/api/profile?pretty"
+        },
+        {
             "key": "meet",
             "url": "https://calendar.app.google/UKz2ev6HnJi55CxZ9"
         },
@@ -401,5 +405,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Fri, 30 Jan 2026 12:30:49 GMT"
+    "updatedAt": "Fri, 30 Jan 2026 16:27:02 GMT"
 }
