@@ -28,15 +28,15 @@
             "handle": "itzzritik",
             "followers": 45,
             "following": 15,
-            "public_repos": 58,
+            "public_repos": 57,
             "public_gists": 1
         },
         "linkedin": {
             "avatar": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/linkedin-avatar.jpg",
             "cover": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/linkedin-cover.jpg",
             "handle": "itzzritik",
-            "connections": 5168,
-            "followers": 5145
+            "connections": 5170,
+            "followers": 5147
         },
         "seo": {
             "title": "Ritik Srivastava | Full Stack Developer Portfolio",
@@ -406,5 +406,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Wed, 25 Feb 2026 12:24:23 GMT"
+    "updatedAt": "Thu, 26 Feb 2026 00:30:33 GMT"
 }
