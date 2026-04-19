@@ -403,6 +403,11 @@
             "enableQuery": true
         },
         {
+            "key": "logout",
+            "url": "https://itzzritik.cloudflareaccess.com/cdn-cgi/access/logout",
+            "enableQuery": false
+        },
+        {
             "key": "meet",
             "url": "https://calendar.app.google/UKz2ev6HnJi55CxZ9"
         },
@@ -411,5 +416,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Sun, 19 Apr 2026 00:30:36 GMT"
+    "updatedAt": "Sun, 19 Apr 2026 03:31:17 GMT"
 }
