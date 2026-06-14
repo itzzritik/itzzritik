@@ -16,6 +16,7 @@
             "country": "India",
             "city": "Bengaluru, Karnataka",
             "full": "Bengaluru, Karnataka, India",
+            "postal_code": "",
             "country_code": "IN"
         },
         "linkedinConnections": 4864,
@@ -26,7 +27,7 @@
         "tagline": "Not just writing code - crafting resilient systems that breathe, scale, and adapt with users at core, delivering high-performance results with real-world impact",
         "github": {
             "handle": "itzzritik",
-            "followers": 48,
+            "followers": 49,
             "following": 3,
             "public_repos": 58,
             "public_gists": 1
@@ -35,8 +36,8 @@
             "avatar": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/linkedin-avatar.jpg",
             "cover": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/linkedin-cover.jpg",
             "handle": "itzzritik",
-            "connections": 5261,
-            "followers": 5240
+            "connections": 5293,
+            "followers": 5271
         },
         "seo": {
             "title": "Ritik Srivastava | Full Stack Developer Portfolio",
@@ -416,5 +417,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Tue, 12 May 2026 00:30:36 GMT"
+    "updatedAt": "Sun, 14 Jun 2026 00:30:32 GMT"
 }
