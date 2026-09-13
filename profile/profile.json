@@ -170,7 +170,8 @@
             "location": "Chennai, Tamil Nadu, India",
             "linkedin": "https://www.linkedin.com/company/14577069/",
             "description": "• At Sanrakshak, we committed to making railway journeys safer by developing robust and affordable sensors mounted beneath train engines.\n• These sensors delivered real-time data on cracks or faults in railway tracks, offering a comprehensive end-to-end monitoring solution for government adoption.\n• Recognized with multiple accolades:\n – National Rank 1, Sabre Hack 2019 (Bengaluru)\n – India Finalist, German-Indian Startup Connect 2018 (Munich, Germany)\n – National Winner, TATA Grand Indian IoT Challenge 2018 (Pune)\n – Winner, IoT Bootcamp, Indian Institute of Technology Madras\n• Techstack: Android Studio, Node.js, React, TypeScript, Socket.IO, Arduino, IoT Sensors",
-            "logo": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/company-sanrakshak.jpg"
+            "logo": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/company-sanrakshak.jpg",
+            "hideOnResume": true
         },
         {
             "title": "Full Stack Developer",
@@ -181,7 +182,8 @@
             "location": "Mumbai, Maharashtra, India",
             "linkedin": "https://www.linkedin.com/company/14618702/",
             "description": "• Contributed to a cross-platform application as part of the intern team, supporting ERPNext - an open source ERP platform offering modules for finance, inventory, invoicing, and reporting.\n• Built key components using the Ionic framework, focusing on responsiveness and seamless UI experience across web and mobile platforms.\n• Techstack: Ionic, Node.js, TypeScript, HTML, SCSS",
-            "logo": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/company-frappe.jpg"
+            "logo": "https://raw.githubusercontent.com/itzzritik/itzzritik/main/profile/images/company-frappe.jpg",
+            "hideOnResume": true
         }
     ],
     "language": [
@@ -413,5 +415,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Fri, 11 Sep 2026 20:25:58 GMT"
+    "updatedAt": "Sun, 13 Sep 2026 15:36:17 GMT"
 }
