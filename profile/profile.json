@@ -2,6 +2,7 @@
     "personal": {
         "name": "Ritik Srivastava",
         "displayEmail": "hi@ritik.me",
+        "displayPhone": "+91 78390 01481",
         "title": "Creative | Technologist | Developer",
         "currentRole": "Full Stack Developer",
         "dob": "Tue, 10 Jun 1997 05:20:00 GMT",
@@ -23,6 +24,13 @@
         "emails": [
             "ritik.space@gmail.com",
             "hi@ritik.me"
+        ],
+        "phones": [
+            {
+                "country": "IN",
+                "countryCode": "+91",
+                "number": "78390 01481"
+            }
         ],
         "tagline": "Not just writing code - crafting resilient systems that breathe, scale, and adapt with users at core, delivering high-performance results with real-world impact",
         "github": {
@@ -415,5 +423,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Sun, 13 Sep 2026 15:36:17 GMT"
+    "updatedAt": "Sun, 13 Sep 2026 17:51:28 GMT"
 }
