@@ -306,6 +306,8 @@
         "Django",
         "SQL",
         "MongoDB",
+        "PostgreSQL",
+        "Docker",
         "Redis"
     ],
     "skills": [
@@ -425,5 +427,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Mon, 14 Sep 2026 12:39:36 GMT"
+    "updatedAt": "Mon, 14 Sep 2026 12:42:38 GMT"
 }
