@@ -49,12 +49,7 @@
         "website": "ritik.me",
         "npx": "npx ritik",
         "resume": "https://cv.ritik.me",
-        "meeting": "https://meet.ritik.me",
-        "tagline": "Not just writing code - crafting resilient systems that breathe, scale, and adapt with users at core, delivering high-performance results with real-world impact",
-        "seo": {
-            "title": "Ritik Srivastava | Full Stack Developer Portfolio",
-            "description": "Ritik Srivastava, a Frontend, Backend & Full Stack Developer in Bengaluru, skilled in React, Vue, Node, AI systems & scalable apps. Creative & efficient."
-        }
+        "meeting": "https://meet.ritik.me"
     },
     "socialHandles": [
         {
@@ -429,5 +424,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Mon, 14 Sep 2026 12:14:49 GMT"
+    "updatedAt": "Mon, 14 Sep 2026 12:25:09 GMT"
 }
