@@ -348,6 +348,7 @@
         "Node.js",
         "OpenAI API",
         "PHP",
+        "PostgreSQL",
         "Problem Solving",
         "Progressive Web Applications (PWAs)",
         "Project Management",
@@ -424,5 +425,5 @@
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
         }
     ],
-    "updatedAt": "Mon, 14 Sep 2026 12:25:09 GMT"
+    "updatedAt": "Mon, 14 Sep 2026 12:39:36 GMT"
 }
