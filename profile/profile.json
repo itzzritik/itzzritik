@@ -400,17 +400,12 @@
             "url": "https://www.linkedin.com/in/itzzritik"
         },
         {
-            "key": "ind",
-            "url": "https://inderneel.com",
-            "enableQuery": false
-        },
-        {
             "key": "jarvis-setup",
             "url": "https://raw.githubusercontent.com/itzzritik/XtremeSetup/main/Jarvis/jarvis.sh"
         },
         {
             "key": "json",
-            "url": "https://ritik.me/api/profile",
+            "url": "https://cv.ritik.me/api/profile",
             "enableQuery": true
         },
         {
@@ -428,5 +423,5 @@
         }
     ],
     "resumeTheme": "modern",
-    "updatedAt": "Thu, 17 Sep 2026 13:33:03 GMT"
+    "updatedAt": "Mon, 28 Sep 2026 23:35:40 GMT"
 }
