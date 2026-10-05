@@ -400,10 +400,6 @@
             "url": "https://www.linkedin.com/in/itzzritik"
         },
         {
-            "key": "jarvis-setup",
-            "url": "https://raw.githubusercontent.com/itzzritik/XtremeSetup/main/Jarvis/jarvis.sh"
-        },
-        {
             "key": "json",
             "url": "https://cv.ritik.me/api/profile",
             "enableQuery": true
@@ -420,8 +416,13 @@
         {
             "key": "sabre",
             "url": "https://www.sabre.com/locations/india/insights/sabre-hack-inspiring-innovation-in-travel-technology"
+        },
+        {
+            "key": "setup-windows",
+            "url": "https://raw.githubusercontent.com/itzzritik/XtremeSetup/main/Windows/index.ps1",
+            "enableQuery": false
         }
     ],
     "resumeTheme": "modern",
-    "updatedAt": "Mon, 28 Sep 2026 23:35:40 GMT"
+    "updatedAt": "Mon, 05 Oct 2026 12:49:24 GMT"
 }
