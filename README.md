@@ -14,7 +14,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/portrait-dark.svg">
-  <img src="./assets/portrait-light.svg" width="49%" alt="ASCII portrait of Ritik Srivastava, Full Stack Engineer">
+  <img src="./assets/portrait-light.svg" width="49%" alt="ASCII portrait of Ritik Srivastava, Full Stack Developer">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg">
@@ -24,7 +24,6 @@
 <br>
 <br>
 
-<!-- about:start -->
 <h3><code>ritik@github ~ $ cat about.md</code></h3>
 
 <p>
@@ -43,7 +42,6 @@ Previously at Plivo, Societe Generale Global Solution Centre and Postman.
 
 <h3><code>ritik@github ~ $ ./links.sh</code></h3>
 
-[![Ritik Srivastava's portfolio](https://img.shields.io/badge/Portfolio-ritik.me-21262d?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=7F51FF)](https://ritik.me) [![Ritik Srivastava's resume](https://img.shields.io/badge/Resume-cv.ritik.me-21262d?style=for-the-badge&logo=readdotcv&logoColor=white&labelColor=0F766E)](https://cv.ritik.me) [![Ritik Srivastava on LinkedIn](https://img.shields.io/badge/LinkedIn-ItzzRitik-21262d?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc%2BPHBhdGggZmlsbD0nd2hpdGUnIGQ9J00yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeicvPjwvc3ZnPg%3D%3D&logoColor=white&labelColor=0A66C2)](https://linkedin.com/in/ItzzRitik) [![Ritik Srivastava on Instagram](https://img.shields.io/badge/Instagram-itzz__ritik-21262d?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F)](https://instagram.com/itzz_ritik) [![Ritik Srivastava on X](https://img.shields.io/badge/X-ItzzRitik-21262d?style=for-the-badge&logo=x&logoColor=white&labelColor=000000)](https://x.com/ItzzRitik) [![Ritik Srivastava on Facebook](https://img.shields.io/badge/Facebook-ItzzRitik-21262d?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0866FF)](https://facebook.com/ItzzRitik) [![Ritik Srivastava's CLI portfolio: npx ritik](https://img.shields.io/badge/npx-ritik-21262d?style=for-the-badge&logo=npm&logoColor=white&labelColor=CB3837)](https://www.npmjs.com/package/ritik) [![Book a call with Ritik Srivastava](https://img.shields.io/badge/Book_a_call-meet.ritik.me-21262d?style=for-the-badge&logo=googlecalendar&logoColor=white&labelColor=1A73E8)](https://meet.ritik.me)
-<!-- about:end -->
+[![Ritik Srivastava's portfolio](https://img.shields.io/badge/Portfolio-7F51FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ritik.me) [![Ritik Srivastava's resume](https://img.shields.io/badge/Resume-0F766E?style=for-the-badge&logo=readdotcv&logoColor=white)](https://cv.ritik.me) [![Ritik Srivastava on LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc%2BPHBhdGggZmlsbD0nd2hpdGUnIGQ9J00yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeicvPjwvc3ZnPg%3D%3D&logoColor=white)](https://linkedin.com/in/ItzzRitik) [![Ritik Srivastava on Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/itzz_ritik) [![Ritik Srivastava on X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ItzzRitik) [![Ritik Srivastava on Facebook](https://img.shields.io/badge/Facebook-0866FF?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/ItzzRitik) [![Ritik Srivastava's CLI portfolio: npx ritik](https://img.shields.io/badge/npx_ritik-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/ritik) [![Book a call with Ritik Srivastava](https://img.shields.io/badge/Book_a_call-1A73E8?style=for-the-badge&logo=googlecalendar&logoColor=white)](https://meet.ritik.me)
 
 </div>

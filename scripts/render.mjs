@@ -1,20 +1,21 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
-const USER = process.env.GH_USER || 'itzzritik';
+const PROFILE = JSON.parse(readFileSync(new URL('../profile/profile.json', import.meta.url), 'utf8'));
+const USER = process.env.GH_USER || PROFILE.socialHandles.find((h) => h.platform === 'github')?.handle;
 const TOKEN = process.env.GH_TOKEN;
-const HOST = 'ritik@github';
-const NAME = 'Ritik Srivastava';
+const NAME = PROFILE.personal.name;
+const HOST = `${NAME.split(' ')[0].toLowerCase()}@github`;
 const asset = (f) => new URL(`../assets/${f}`, import.meta.url);
 
 const THEMES = {
 	dark: {
-		bg: '#0d1117', bg2: '#111722', tile: '#161b22', frame: '#30363d', muted: '#7d8590', ink: '#e6edf3', art: '#c9d1d9', artWeight: 400,
-		heat: ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'], green: '#39d353', bar: '#26a641',
+		bg: '#0d1117', frame: '#30363d', rule: '#262c36', muted: '#7d8590', ink: '#e6edf3', art: '#c9d1d9', artWeight: 400,
+		heat: ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'], green: '#39d353', bar: '#196c2e',
 	},
 	light: {
-		bg: '#ffffff', bg2: '#f6f8fa', tile: '#f6f8fa', frame: '#d0d7de', muted: '#59636e', ink: '#1f2328', art: '#1f2328', artWeight: 700,
-		heat: ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'], green: '#1a7f37', bar: '#2da44e',
+		bg: '#ffffff', frame: '#d0d7de', rule: '#e1e5ea', muted: '#59636e', ink: '#1f2328', art: '#1f2328', artWeight: 700,
+		heat: ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'], green: '#1a7f37', bar: '#8fd9a0',
 	},
 };
 const LEVEL = { NONE: 0, FIRST_QUARTILE: 1, SECOND_QUARTILE: 2, THIRD_QUARTILE: 3, FOURTH_QUARTILE: 4 };
@@ -25,7 +26,7 @@ const DOTS = ['#ff5f56', '#ffbd2e', '#27c93f'];
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const fmt = (v, dec = false) => (dec ? v.toFixed(1) : Math.round(v).toLocaleString('en-US'));
 const shortDate = (iso) => `${MONTHS[+iso.slice(5, 7) - 1]} ${+iso.slice(8, 10)}`;
-const span = (s) => (s.length ? `${shortDate(s.start)} – ${shortDate(s.end)}` : '—');
+const span = (s) => (s.length ? `${shortDate(s.start)} to ${shortDate(s.end)}` : '');
 
 function istWindow() {
 	const d = new Date(Date.now() + 330 * 60_000);
@@ -125,9 +126,7 @@ ${rects}
 }
 
 function chrome(w, h, t, title) {
-	return `<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${t.bg2}"/><stop offset="1" stop-color="${t.bg}"/></linearGradient></defs>`
-		+ `<rect width="${w}" height="${h}" rx="12" fill="url(#bg)"/>`
-		+ `<rect x="0.5" y="0.5" width="${w - 1}" height="${h - 1}" rx="12" fill="none" stroke="${t.frame}"/>`
+	return `<rect x="0.5" y="0.5" width="${w - 1}" height="${h - 1}" rx="12" fill="${t.bg}" stroke="${t.frame}"/>`
 		+ `<line x1="0" y1="30" x2="${w}" y2="30" stroke="${t.frame}"/>`
 		+ DOTS.map((c, i) => `<circle cx="${20 + i * 16}" cy="15" r="5" fill="${c}"/>`).join('')
 		+ `<text x="${w / 2}" y="19" fill="${t.muted}" font-size="12" text-anchor="middle">${esc(title)}</text>`;
@@ -164,96 +163,121 @@ function portraitSvg(lines, t) {
 			+ `<set attributeName="opacity" to="0.85" begin="${delay.toFixed(3)}s"/><set attributeName="opacity" to="0" begin="${(delay + rowDur).toFixed(3)}s"/></rect>`;
 	});
 
-	const lineY = 30 + ROWS * CELL_H + PAD * 0.35;
-	const statusY = lineY + 19;
-	const statusChars = `${HOST}:~$ whoami ${NAME} `.length;
-	const status = `<line x1="0" y1="${lineY.toFixed(1)}" x2="${CANVAS_W}" y2="${lineY.toFixed(1)}" stroke="${t.frame}"/>`
-		+ `<text x="${PAD}" y="${statusY.toFixed(1)}" fill="${t.muted}" font-size="13">${HOST}:~$ whoami <tspan fill="${t.art}">${NAME}</tspan></text>`
-		+ `<rect x="${(PAD + statusChars * 13 * 0.6).toFixed(1)}" y="${(statusY - 12).toFixed(1)}" width="8" height="14" fill="${t.art}">`
-		+ '<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/></rect>';
-
 	return `<svg xmlns="http://www.w3.org/2000/svg" width="${CANVAS_W}" height="${CANVAS_H}" viewBox="0 0 ${CANVAS_W} ${CANVAS_H}" font-family="${MONO}">`
 		+ '<style>@media (prefers-reduced-motion: reduce){.row{clip-path:none!important}.cur{display:none!important}}</style>'
-		+ chrome(CANVAS_W, CANVAS_H, t, `${HOST}: ~$ ./portrait.sh`) + art + status + '</svg>';
+		+ chrome(CANVAS_W, CANVAS_H, t, `${HOST}: ~$ ./portrait.sh`) + art
+		+ statusBar(t, `${HOST}:~$ whoami <tspan fill="${t.art}">${NAME}</tspan>`, `${HOST}:~$ whoami ${NAME} `.length) + '</svg>';
+}
+
+const STATUS_LINE = 30 + ROWS * CELL_H + 7;
+const STATUS_Y = STATUS_LINE + 19;
+
+function statusBar(t, html, chars, right = '') {
+	return `<line x1="0" y1="${STATUS_LINE.toFixed(1)}" x2="${CANVAS_W}" y2="${STATUS_LINE.toFixed(1)}" stroke="${t.frame}"/>`
+		+ `<text x="20" y="${STATUS_Y.toFixed(1)}" fill="${t.muted}" font-size="13">${html}</text>`
+		+ (right ? `<text x="${CANVAS_W - 20}" y="${STATUS_Y.toFixed(1)}" fill="${t.muted}" font-size="13" text-anchor="end">${esc(right)}</text>` : '')
+		+ `<rect x="${(20 + chars * 13 * 0.6).toFixed(1)}" y="${(STATUS_Y - 12).toFixed(1)}" width="8" height="14" fill="${t.art}">`
+		+ '<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/></rect>';
+}
+
+let clipId = 0;
+
+// Odometer: each digit is a clipped column of 0-9 that CSS rolls up to its final digit.
+function odometer(str, x, y, size, fill, delay, spins, anchor = 'start') {
+	const adv = size * 0.6;
+	const lh = size * 1.25;
+	const left = anchor === 'end' ? x - str.length * adv : x;
+	const id = `o${++clipId}`;
+	let n = 0;
+	const cols = [...str].map((ch, i) => {
+		const cx = (left + (i + 0.5) * adv).toFixed(1);
+		if (!/\d/.test(ch)) return `<text x="${cx}" y="${y}">${ch}</text>`;
+		const end = spins * 10 + +ch;
+		const stack = Array.from({ length: end + 1 }, (_, k) => `<tspan x="${cx}" y="${(y + k * lh).toFixed(1)}">${k % 10}</tspan>`).join('');
+		return `<g class="o" style="transform:translateY(${(-end * lh).toFixed(1)}px);animation-delay:${(delay + n++ * 0.08).toFixed(2)}s"><text>${stack}</text></g>`;
+	}).join('');
+	return `<clipPath id="${id}"><rect x="${(left - 6).toFixed(1)}" y="${(y - size * 0.9).toFixed(1)}" width="${(str.length * adv + 12).toFixed(1)}" height="${(size * 0.98).toFixed(1)}"/></clipPath>`
+		+ `<g clip-path="url(#${id})" fill="${fill}" font-size="${size}" font-weight="700" text-anchor="middle">${cols}</g>`;
 }
 
 function statsSvg(s, t) {
 	const W = CANVAS_W;
 	const H = CANVAS_H;
-	const PAD = 20;
-	const GAP = 16;
-	const TILE_W = (W - PAD * 2 - GAP) / 2;
-	const TILE_H = 150;
-	const TILES_TOP = 30 + PAD + 4;
-	const CHART_TOP = TILES_TOP + 3 * TILE_H + 2 * GAP + GAP;
-	const TILE_STAGGER = 0.15;
-	const SLIDE_DUR = 0.45;
-	const COUNT_DUR = 1.2;
-	const FRAMES = 16;
-	const BAR_START = TILE_STAGGER * 6 + 0.4;
+	const L = 44;
+	const R = W - 44;
+	const HERO = 136;
+	const HERO_Y = 174;
+	const LEDGER = HERO_Y + 86;
+	const ROW = 50;
+	const VAL_X = 452;
+	const ROWS_AT = 0.75;
+	const ROW_STAGGER = 0.14;
+	const PLOT_BOT = STATUS_LINE - 76;
+	const BARS_AT = 1.75;
 	const BAR_STAGGER = 0.06;
-	const BAR_DUR = 0.6;
+	const BAR_DUR = 1;
 
-	const tiles = [
-		['current streak', s.current.length, ' days', span(s.current), t.green, false],
-		['longest streak', s.longest.length, ' days', span(s.longest), t.ink, false],
-		['contributions', s.total, '', 'in the last year', t.ink, false],
-		['active days', s.active, ` / ${s.days}`, `${Math.round((s.active / s.days) * 100)}% of the year`, t.ink, false],
-		['best day', s.best.count, '', shortDate(s.best.date), t.ink, false],
-		['avg / active day', s.avg, '', 'contributions', t.ink, true],
-	];
-
+	const rule = (y, at) => `<rect class="d" x="${L}" y="${y}" width="${R - L}" height="1" fill="${t.rule}" style="animation-delay:${at.toFixed(2)}s"/>`;
+	const fade = (at, body) => `<g class="f" style="animation-delay:${at.toFixed(2)}s">${body}</g>`;
 	const parts = [];
-	tiles.forEach(([label, value, suffix, caption, accent, dec], i) => {
-		const x = PAD + (i % 2) * (TILE_W + GAP);
-		const y = TILES_TOP + Math.floor(i / 2) * (TILE_H + GAP);
-		const start = i * TILE_STAGGER;
-		const countStart = start + SLIDE_DUR * 0.6;
-		parts.push(`<g class="t" style="animation-delay:${start.toFixed(2)}s">`);
-		parts.push(`<rect x="${x.toFixed(1)}" y="${y}" width="${TILE_W.toFixed(1)}" height="${TILE_H}" rx="10" fill="${t.tile}" stroke="${t.frame}"/>`);
-		parts.push(`<text x="${(x + 24).toFixed(1)}" y="${y + 40}" fill="${t.muted}" font-size="22">$ ${esc(label)}</text>`);
-		for (let k = 1; k <= FRAMES; k++) {
-			const v = value * (1 - (1 - k / FRAMES) ** 3);
-			const on = countStart + (COUNT_DUR * (k - 1)) / FRAMES;
-			const off = countStart + (COUNT_DUR * k) / FRAMES;
-			const last = k === FRAMES;
-			const anim = `<set attributeName="opacity" to="1" begin="${on.toFixed(3)}s"/>` + (last ? '' : `<set attributeName="opacity" to="0" begin="${off.toFixed(3)}s"/>`);
-			parts.push(`<text class="n${last ? ' f' : ''}" x="${(x + 24).toFixed(1)}" y="${y + 100}" opacity="0" font-size="54" font-weight="700" fill="${accent}">`
-				+ `${fmt(last ? value : v, dec)}<tspan font-size="24" font-weight="400" fill="${t.muted}">${esc(suffix)}</tspan>${anim}</text>`);
-		}
-		parts.push(`<text x="${(x + 24).toFixed(1)}" y="${y + 132}" fill="${t.muted}" font-size="20">${esc(caption)}</text></g>`);
-	});
 
-	const chartW = W - PAD * 2;
-	const chartH = H - PAD - CHART_TOP;
-	parts.push(`<g class="t" style="animation-delay:${(BAR_START - 0.3).toFixed(2)}s">`);
-	parts.push(`<rect x="${PAD}" y="${CHART_TOP}" width="${chartW}" height="${chartH}" rx="10" fill="${t.tile}" stroke="${t.frame}"/>`);
-	parts.push(`<text x="${PAD + 24}" y="${CHART_TOP + 40}" fill="${t.muted}" font-size="22">$ contributions / month</text></g>`);
+	const streak = String(s.current.length);
+	parts.push(fade(0.1, odometer(streak, L - 6, HERO_Y, HERO, t.green, 0.2, 2)
+		+ `<text x="${(L - 6 + streak.length * HERO * 0.6 + 16).toFixed(1)}" y="${HERO_Y}" fill="${t.muted}" font-size="32">day streak</text>`
+		+ `<text x="${L}" y="${HERO_Y + 42}" fill="${t.muted}" font-size="24">${s.current.length ? span(s.current) : 'No active streak'}</text>`));
 
-	const plotTop = CHART_TOP + 64;
-	const plotBot = CHART_TOP + chartH - 40;
-	const plotL = PAD + 24;
-	const slot = (chartW - 48) / s.monthly.length;
-	const barW = slot * 0.62;
-	const peak = Math.max(...s.monthly.map(([, v]) => v), 1);
-	s.monthly.forEach(([ym, v], i) => {
-		const h = Math.max(2, ((plotBot - plotTop) * v) / peak);
-		const bx = plotL + i * slot + (slot - barW) / 2;
-		const delay = BAR_START + i * BAR_STAGGER;
-		parts.push(`<rect class="b" x="${bx.toFixed(1)}" y="${(plotBot - h).toFixed(1)}" width="${barW.toFixed(1)}" height="${h.toFixed(1)}" rx="3" fill="${v === peak ? t.green : t.bar}" style="animation-delay:${delay.toFixed(2)}s"/>`);
-		parts.push(`<text x="${(bx + barW / 2).toFixed(1)}" y="${plotBot + 28}" fill="${t.muted}" font-size="18" text-anchor="middle">${MONTHS[+ym.slice(5) - 1][0]}</text>`);
-		if (v === peak) parts.push(`<text class="t" style="animation-delay:${(delay + BAR_DUR).toFixed(2)}s" x="${(bx + barW / 2).toFixed(1)}" y="${(plotBot - h - 10).toFixed(1)}" fill="${t.ink}" font-size="18" text-anchor="middle">${fmt(peak)}</text>`);
+	const rows = [
+		['Longest streak', String(s.longest.length), s.longest.length === 1 ? 'day' : 'days', span(s.longest)],
+		['Contributions', fmt(s.total), '', 'in the last year'],
+		['Active days', fmt(s.active), '', `${Math.round((s.active / s.days) * 100)}% of the year`],
+		['Best day', fmt(s.best.count), '', shortDate(s.best.date)],
+		['Daily average', fmt(s.avg, true), '', 'per active day'],
+	];
+	rows.forEach(([label, value, unit, detail], i) => {
+		const y0 = LEDGER + i * ROW;
+		const base = y0 + ROW / 2 + 8.5;
+		const at = ROWS_AT + i * ROW_STAGGER;
+		parts.push(rule(y0, at - 0.1));
+		parts.push(fade(at, `<text x="${L}" y="${base}" fill="${t.muted}" font-size="24">${label}</text>`
+			+ odometer(value, VAL_X, base, 28, t.ink, at + 0.1, 1, 'end')
+			+ (unit ? `<text x="${VAL_X + 12}" y="${base}" fill="${t.muted}" font-size="22">${unit}</text>` : '')
+			+ `<text x="${R}" y="${base}" fill="${t.muted}" font-size="22" text-anchor="end">${esc(detail)}</text>`));
 	});
+	const ledgerEnd = LEDGER + rows.length * ROW;
+	parts.push(rule(ledgerEnd, ROWS_AT + rows.length * ROW_STAGGER - 0.1));
+
+	const titleY = ledgerEnd + 58;
+	const barMax = PLOT_BOT - titleY - 55;
+	parts.push(fade(BARS_AT - 0.25, `<text x="${L}" y="${titleY}" fill="${t.muted}" font-size="24">Contributions by month</text>`));
+	const months = s.monthly.slice(-12);
+	const peak = Math.max(...months.map(([, v]) => v), 1);
+	const slot = (R - L) / months.length;
+	const barW = slot * 0.5;
+	let bars = '';
+	months.forEach(([ym, v], i) => {
+		const h = Math.max(3, (barMax * v) / peak);
+		const cx = L + (i + 0.5) * slot;
+		const at = BARS_AT + i * BAR_STAGGER;
+		const top = v === peak;
+		bars += `<rect class="b" x="${(cx - barW / 2).toFixed(1)}" y="${(PLOT_BOT - h).toFixed(1)}" width="${barW.toFixed(1)}" height="${(h + 8).toFixed(1)}" rx="5" fill="${top ? t.green : t.bar}" style="animation-delay:${at.toFixed(2)}s"/>`;
+		parts.push(fade(at, `<text x="${cx.toFixed(1)}" y="${PLOT_BOT + 32}" fill="${top ? t.ink : t.muted}" font-size="19" text-anchor="middle">${MONTHS[+ym.slice(5) - 1]}</text>`));
+		if (top) parts.push(fade(at + BAR_DUR * 0.6, `<text x="${cx.toFixed(1)}" y="${(PLOT_BOT - h - 14).toFixed(1)}" fill="${t.ink}" font-size="21" font-weight="700" text-anchor="middle">${fmt(peak)}</text>`));
+	});
+	parts.push(`<clipPath id="plot"><rect width="${W}" height="${PLOT_BOT}"/></clipPath><g clip-path="url(#plot)">${bars}</g>`);
+	parts.push(rule(PLOT_BOT, BARS_AT - 0.2));
+
+	const now = new Date(Date.now() + 330 * 60_000).toISOString();
+	const status = statusBar(t, `${HOST}:~$`, `${HOST}:~$ `.length, `updated ${shortDate(now)}, ${now.slice(11, 16)} IST`);
 
 	return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="${MONO}">`
 		+ '<style>'
-		+ `.t{opacity:0;animation:in ${SLIDE_DUR}s ease-out both}`
-		+ '@keyframes in{0%{opacity:0;transform:translateY(14px)}100%{opacity:1;transform:translateY(0)}}'
-		+ `.b{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);animation:grow ${BAR_DUR}s ease-out both}`
-		+ '@keyframes grow{to{transform:scaleY(1)}}'
-		+ '@media (prefers-reduced-motion: reduce){.t,.b{opacity:1!important;transform:none!important;animation:none!important}.n:not(.f){display:none!important}.f{opacity:1!important}}'
+		+ '.f{animation:f .7s cubic-bezier(.2,.8,.2,1) both}@keyframes f{from{opacity:0;transform:translateY(10px)}}'
+		+ '.d{transform-box:fill-box;transform-origin:left;animation:d .9s cubic-bezier(.65,0,.35,1) both}@keyframes d{from{transform:scaleX(0)}}'
+		+ '.o{animation:o 1.6s cubic-bezier(.2,1.05,.3,1) both}@keyframes o{from{transform:translateY(0)}}'
+		+ `.b{transform-box:fill-box;transform-origin:bottom;animation:b ${BAR_DUR}s cubic-bezier(.3,1.25,.45,1) both}@keyframes b{from{transform:scaleY(0)}}`
+		+ '@media (prefers-reduced-motion: reduce){.f,.d,.o,.b{animation:none!important}}'
 		+ '</style>'
-		+ chrome(W, H, t, `${HOST}: ~$ ./stats.sh`) + parts.join('') + '</svg>';
+		+ chrome(W, H, t, `${HOST}: ~$ ./stats.sh`) + parts.join('') + status + '</svg>';
 }
 
 const svgLogo = (path) => `data:image/svg+xml;base64,${Buffer.from(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='white' d='${path}'/></svg>`).toString('base64')}`;
@@ -277,12 +301,10 @@ const PLATFORMS = {
 const shield = (s) => encodeURIComponent(s.replace(/-/g, '--').replace(/_/g, '__').replace(/ /g, '_'));
 const badge = (text, color, logo, logoColor = 'white') =>
 	`https://img.shields.io/badge/${shield(text)}-${color}?style=for-the-badge${logo ? `&logo=${encodeURIComponent(logo)}&logoColor=${logoColor}` : ''}`;
-const pair = (label, value, color, logo) =>
-	`https://img.shields.io/badge/${shield(label)}-${shield(value)}-21262d?style=for-the-badge&logo=${encodeURIComponent(logo)}&logoColor=white&labelColor=${color}`;
 const host = (url) => url.replace(/^https?:\/\//, '').replace(/\/$/, '');
 const list = (xs) => (xs.length > 1 ? `${xs.slice(0, -1).join(', ')} and ${xs.at(-1)}` : xs[0] ?? '');
 
-export function aboutSection(p) {
+export function readmeMd(p) {
 	const me = p.personal;
 	const [current, ...past] = p.experience.filter((e) => !e.hideOnResume);
 	const city = me.location.city.split(',')[0];
@@ -299,21 +321,26 @@ export function aboutSection(p) {
 	});
 	const stack = Array.from({ length: Math.ceil(skills.length / 6) }, (_, i) => skills.slice(i * 6, i * 6 + 6).join(' ')).join('<br>\n');
 
-	const website = `https://${host(me.website)}`;
 	const npxPkg = me.npx.replace(/^npx\s+/, '');
 	const links = [
-		[`${name}'s portfolio`, 'Portfolio', host(me.website), '7F51FF', 'googlechrome', website],
-		[`${name}'s resume`, 'Resume', host(me.resume), '0F766E', 'readdotcv', me.resume],
+		[`${name}'s portfolio`, 'Portfolio', '7F51FF', 'googlechrome', `https://${host(me.website)}`],
+		[`${name}'s resume`, 'Resume', '0F766E', 'readdotcv', me.resume],
 		...p.socialHandles.filter((h) => PLATFORMS[h.platform] !== null).map((h) => {
 			const [label, color, logo] = PLATFORMS[h.platform] ?? [h.platform[0].toUpperCase() + h.platform.slice(1), h.color.replace('#', ''), h.platform];
-			return [`${name} on ${label}`, label, h.handle, color, logo, `${h.url}/${h.handle}`];
+			return [`${name} on ${label}`, label, color, logo, `${h.url}/${h.handle}`];
 		}),
-		[`${name}'s CLI portfolio: ${me.npx}`, 'npx', npxPkg, 'CB3837', 'npm', `https://www.npmjs.com/package/${npxPkg}`],
-		[`Book a call with ${name}`, 'Book a call', host(me.meeting), '1A73E8', 'googlecalendar', me.meeting],
-	].map(([alt, label, value, color, logo, href]) => `[![${alt}](${pair(label, value, color, logo)})](${href})`).join(' ');
+		[`${name}'s CLI portfolio: ${me.npx}`, me.npx, 'CB3837', 'npm', `https://www.npmjs.com/package/${npxPkg}`],
+		[`Book a call with ${name}`, 'Book a call', '1A73E8', 'googlecalendar', me.meeting],
+	].map(([alt, label, color, logo, href]) => `[![${alt}](${badge(label, color, logo)})](${href})`).join(' ');
 
-	return `<h3><code>${HOST} ~ $ cat about.md</code></h3>\n\n${intro}\n\n<br>\n\n${stack}\n\n<br>\n\n`
-		+ `<h3><code>${HOST} ~ $ ./links.sh</code></h3>\n\n${links}`;
+	const cmd = (c) => `<h3><code>${HOST} ~ $ ${c}</code></h3>`;
+	const card = (file, width, alt) => `<picture>\n  <source media="(prefers-color-scheme: dark)" srcset="./assets/${file}-dark.svg">\n`
+		+ `  <img src="./assets/${file}-light.svg" width="${width}" alt="${alt}">\n</picture>`;
+
+	return `<div align="center">\n\n${cmd('./contributions.sh')}\n\n${card('heatmap', '860', `${name}'s GitHub contribution graph, updated daily`)}\n\n<br>\n<br>\n\n`
+		+ `${cmd('whoami')}\n\n${card('portrait', '49%', `ASCII portrait of ${name}, ${current.title}`)}\n`
+		+ `${card('stats', '49%', `${name}'s GitHub streak and contribution stats, updated daily`)}\n\n<br>\n<br>\n\n`
+		+ `${cmd('cat about.md')}\n\n${intro}\n\n<br>\n\n${stack}\n\n<br>\n\n${cmd('./links.sh')}\n\n${links}\n\n</div>\n`;
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
@@ -328,11 +355,6 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
 		[`stats-${name}.svg`, statsSvg(stats, t)],
 	]);
 	for (const [file, svg] of out) writeFileSync(asset(file), svg);
-	const readme = new URL('../README.md', import.meta.url);
-	const md = readFileSync(readme, 'utf8');
-	const about = aboutSection(JSON.parse(readFileSync(new URL('../profile/profile.json', import.meta.url), 'utf8')));
-	const next = md.replace(/<!-- about:start -->[^]*?<!-- about:end -->/, `<!-- about:start -->\n${about}\n<!-- about:end -->`);
-	if (next === md && !md.includes('<!-- about:start -->')) throw new Error('README.md is missing the about:start/about:end markers');
-	writeFileSync(readme, next);
+	writeFileSync(new URL('../README.md', import.meta.url), readmeMd(PROFILE).replace(/\s*[\u2012-\u2015\u2212]\s*/g, ', '));
 	console.log(`total ${total}, streak ${stats.current.length}/${stats.longest.length}, ${out.map(([f, svg]) => `${f} ${Math.round(svg.length / 1024)}KB`).join(', ')}`);
 }
