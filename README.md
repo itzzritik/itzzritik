@@ -1,97 +1,49 @@
-<br><br>
-<p align="center">
-  <a href="https://ritik.me">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&center=true&vCenter=true&random=false&width=650&lines=Hello+There+%F0%9F%91%8B%F0%9F%8F%BB%2C+I'm+Ritik+Srivastava">
-  </a>
-</p>
+<div align="center">
+
+<h3><code>ritik@github ~ $ ./contributions.sh</code></h3>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/heatmap-dark.svg">
+  <img src="./assets/heatmap-light.svg" width="860" alt="Ritik Srivastava's GitHub contribution graph, updated daily">
+</picture>
+
+<br>
 <br>
 
-# 💫&nbsp; About Me
-- 🚀&nbsp; Fullstack Developer at **[AdeptMind]**
-- 📖&nbsp; Learn more about me on my **[Portfolio]** and **[Resume]**
-- 💻&nbsp; Checkout my cli portfolio, Run `npx ritik` in your terminal
-- 📅&nbsp; Up for a huddle? Schedule a **[Meeting]**
+<h3><code>ritik@github ~ $ whoami</code></h3>
 
-# 🌐&nbsp; Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/itzzritik)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white&style=for-the-badge)](https://instagram.com/itzz_ritik)
-[![NPX RITIK](https://img.shields.io/badge/npx_ritik-CC3534?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/ritik)
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white&style=for-the-badge)](https://facebook.com/itzzritik)
-[![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white&style=for-the-badge)](https://x.com/itzzritik) 
-[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white&style=for-the-badge)](https://stackoverflow.com/users/4659503)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/portrait-dark.svg">
+  <img src="./assets/portrait-light.svg" width="49%" alt="ASCII portrait of Ritik Srivastava, Full Stack Engineer">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg">
+  <img src="./assets/stats-light.svg" width="49%" alt="Ritik Srivastava's GitHub streak and contribution stats, updated daily">
+</picture>
 
-# 💻&nbsp; Favorite Tech
-### Languages
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
-### Frameworks and Tools
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Angular.js](https://img.shields.io/badge/angular-%23E23237.svg?style=for-the-badge&logo=angular&logoColor=white)
-![Vue.js](https://img.shields.io/badge/vue_js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-![NodeJS](https://img.shields.io/badge/node_js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express_js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket_io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
-![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
-![Metero JS](https://img.shields.io/badge/meteorjs-%23d74c4c.svg?style=for-the-badge&logo=meteor&logoColor=white)
-![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
-![Nuxt JS](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxt.js&logoColor=#00DC82)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![RollupJS](https://img.shields.io/badge/RollupJS-ef3335?style=for-the-badge&logo=rollup.js&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+<br>
+<br>
 
-# 📊 Stats
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=itzzritik&theme=dark&show_icons=true&rank_icon=github&card_width=440" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=itzzritik&theme=light&show_icons=true&rank_icon=github&card_width=440" />
-    <img alt="Github Streaks" src="https://github-readme-stats.vercel.app/api?username=itzzritik&theme=light&show_icons=true&rank_icon=github&card_width=440" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=itzzritik&theme=dark&hide_border=false&card_width=400" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=itzzritik&theme=light&hide_border=false&card_width=400" />
-    <img alt="Github Streaks" src="https://github-readme-streak-stats.herokuapp.com/?user=itzzritik&theme=light&hide_border=false&card_width=400" />
-  </picture>
-  <!-- <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=itzzritik&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=donut" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=itzzritik&theme=light&hide_border=false&include_all_commits=true&count_private=true&layout=donut" />
-    <img alt="Github Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzzritik&theme=light&hide_border=false&include_all_commits=true&count_private=true&layout=donut" />
-  </picture> -->
+<!-- about:start -->
+<h3><code>ritik@github ~ $ cat about.md</code></h3>
+
+<p>
+<b>Ritik Srivastava</b> · Full Stack Developer at <b>Adeptmind</b> · Bengaluru, India<br>
+Full Stack Engineer specializing in scalable web applications, AI powered systems, and high performance infrastructure with TypeScript, React, Node, Python, Go.<br>
+Previously at Plivo, Societe Generale Global Solution Centre and Postman.
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile/assets/SnakeGameDark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="profile/assets/SnakeGame.svg" />
-    <img alt="Github Contribution Snake Game" src="profile/assets/SnakeGame.svg" />
-  </picture>
-</p>
+<br>
 
-<!-- links definition -->
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![React.js](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)<br>
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white) ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)<br>
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc%2BPHBhdGggZmlsbD0nd2hpdGUnIGQ9J00xMiAyQzcgMiAzIDMuNiAzIDUuNXYxM0MzIDIwLjQgNyAyMiAxMiAyMnM5LTEuNiA5LTMuNXYtMTNDMjEgMy42IDE3IDIgMTIgMnptMCAyYzQuNCAwIDcgMS4zIDcgMS41UzE2LjQgNyAxMiA3IDUgNS43IDUgNS41IDcuNiA0IDEyIDR6bTcgMTQuNWMwIC4yLTIuNiAxLjUtNyAxLjVzLTctMS4zLTctMS41di0yLjdjMS42LjggNC4yIDEuMiA3IDEuMnM1LjQtLjQgNy0xLjJ2Mi43em0wLTVjMCAuMi0yLjYgMS41LTcgMS41cy03LTEuMy03LTEuNXYtMi43YzEuNi44IDQuMiAxLjIgNyAxLjJzNS40LS40IDctMS4ydjIuN3onLz48L3N2Zz4%3D&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-[AdeptMind]: https://github.com/AdeptMind "AdeptMind Github Page"
-[LinkedIn]: https://www.linkedin.com/in/itzzritik "Ritik's LinkedIn"
-[Portfolio]: https://ritik.me "Ritik's Portfolio"
-[Resume]: https://cv.ritik.me "Checkout Ritik's Resume"
-[Meeting]: https://meet.ritik.me "Schedule a meeting" 
+<br>
 
+<h3><code>ritik@github ~ $ ./links.sh</code></h3>
+
+[![Ritik Srivastava's portfolio](https://img.shields.io/badge/Portfolio-ritik.me-21262d?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=7F51FF)](https://ritik.me) [![Ritik Srivastava's resume](https://img.shields.io/badge/Resume-cv.ritik.me-21262d?style=for-the-badge&logo=readdotcv&logoColor=white&labelColor=0F766E)](https://cv.ritik.me) [![Ritik Srivastava on LinkedIn](https://img.shields.io/badge/LinkedIn-ItzzRitik-21262d?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc%2BPHBhdGggZmlsbD0nd2hpdGUnIGQ9J00yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeicvPjwvc3ZnPg%3D%3D&logoColor=white&labelColor=0A66C2)](https://linkedin.com/in/ItzzRitik) [![Ritik Srivastava on Instagram](https://img.shields.io/badge/Instagram-itzz__ritik-21262d?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F)](https://instagram.com/itzz_ritik) [![Ritik Srivastava on X](https://img.shields.io/badge/X-ItzzRitik-21262d?style=for-the-badge&logo=x&logoColor=white&labelColor=000000)](https://x.com/ItzzRitik) [![Ritik Srivastava on Facebook](https://img.shields.io/badge/Facebook-ItzzRitik-21262d?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0866FF)](https://facebook.com/ItzzRitik) [![Ritik Srivastava's CLI portfolio: npx ritik](https://img.shields.io/badge/npx-ritik-21262d?style=for-the-badge&logo=npm&logoColor=white&labelColor=CB3837)](https://www.npmjs.com/package/ritik) [![Book a call with Ritik Srivastava](https://img.shields.io/badge/Book_a_call-meet.ritik.me-21262d?style=for-the-badge&logo=googlecalendar&logoColor=white&labelColor=1A73E8)](https://meet.ritik.me)
+<!-- about:end -->
+
+</div>

@@ -1,0 +1,52 @@
+name: Profile Art
+
+on:
+  schedule:
+    - cron: "17 18 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "assets/portrait*.txt"
+      - "profile/profile.json"
+      - ".github/workflows/profile-art.yml"
+
+jobs:
+  render:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout to 'main' Branch ✔️
+        uses: actions/checkout@v4.2.0
+
+      - name: Render Profile Art 🎨
+        run: node scripts/render.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GIT_TOKEN }}
+
+      - name: Setting up SSH key 🔑
+        run: |
+          mkdir -p ~/.ssh/
+          echo "${{ secrets.JARVIS_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      - name: Configure git with SSH key and author 🛠️
+        run: |
+          git config --global gpg.format ssh
+          git config --global user.signingkey ~/.ssh/id_rsa
+          git config --global commit.gpgsign true
+          git config --global user.email "ritik.jarvis@gmail.com"
+          git config --global user.name "itzzjarvis"
+
+      - name: Sign Commit and Push Changes 🎉
+        run: |
+          if [ -z "$(git status --porcelain assets/ README.md)" ]; then echo "No changes"; exit 0; fi
+          git add assets/ README.md
+          git commit -m "📊 Profile art refreshed"
+          git pull --rebase
+          git push
