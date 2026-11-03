@@ -400,11 +400,6 @@
             "url": "https://www.linkedin.com/in/itzzritik"
         },
         {
-            "key": "json",
-            "url": "https://cv.ritik.me/api/profile",
-            "enableQuery": true
-        },
-        {
             "key": "logout",
             "url": "https://itzzritik.cloudflareaccess.com/cdn-cgi/access/logout",
             "enableQuery": false
@@ -424,5 +419,5 @@
         }
     ],
     "resumeTheme": "modern",
-    "updatedAt": "Tue, 13 Oct 2026 18:34:05 GMT"
+    "updatedAt": "Tue, 03 Nov 2026 14:18:44 GMT"
 }
